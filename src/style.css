@@ -1,0 +1,57 @@
+.gh-events-widget {
+  max-width: 350px;
+}
+
+.event {
+  position: relative;
+  padding:10px;
+  border: 1px solid #f5f5f5;
+  border-top: 0;
+}
+
+.event:hover {
+  background-color: #fcfcfc;
+}
+
+.text {
+  clear:both;
+  display:block;
+  margin-bottom:5px;
+}
+
+.date {
+  display: block;
+  float:left;
+  font-size: 80%;
+}
+
+.link {
+  display: block;
+  float:right;
+  font-size: 80%;
+  color:black;
+}
+
+.header {
+  padding: 5px 10px;
+  border: 1px solid  #f5f5f5;
+  border-radius: 5px 5px 0 0;
+  background-color: #fcfcfc;
+}
+
+.header img {
+  vertical-align: text-bottom;;
+}
+
+.header a {
+  font-weight: bold;
+}
+
+a {
+  color:black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
