@@ -11,9 +11,14 @@ env:
   global:
   - GH_USERNAME: Travis CI
   - GH_EMAIL: todvora@gmail.com
-  - GH_REF: github.com/todvora/extrade.git
-  - secure: CN9P7Bi/hNupcpa9XhUM0OQnwqrcITxZ2fs+B2L3TGAfIM68zpXoty1qrLbExsvnB1z7X0outEvMCazpAFtBd70esvyRTltbIljm7y4ZuLNwpqUaHsTwgZJj9QN1QnwhT6t8vjxKdt1p3NqGLusCRYobvcsE2YEulyHSMjSvsEb0Vg5rzmNtvfuntj7wDCAYBUxhyXhLn6RFVOu7RNuQ/wrWVCMaaCKMyaCYotC2LmmfuKYUArKj46DSl2R/wHObVqeO/kD0UA/68mYUM61D+VLD9ddWqVEjcc/how5ShKyKZ9fRyyRpoxL24ohCnrVQXNpX7Ltjm+Xl/xkSqdrEDvlvveUuP/wUNRh+GWaiLVOrjz0viYoCQBqz/q9HzYuXV0DBdsKupxpRE4UNyeHyQFlAV/7df833U70hVMIgtNqnLQP6Jf+4T5BmnIT5W1gASMb9ZEFRKJL8ZYao9xyfVkpEKKGq2mghwtMqwbEpKZAS6jkGT3ebCz+2QWhoPNv1B2BIN4LuVj+JSZFziYT+k/U69A6i0nNDC1sqF00eanKmr2tKRWx4un+h7HZ8TmNe1EQNAK/DmgJmR4Jvn0vmRcAE66GioJomClCVG7WhfH/URvvNGiKvN/cmX8eZDlvjxJS6T2jeTOChDih8ZYSXuUrH3Q9DJoVJmPgV1z6Rd8Q=
+  - GH_REF: github.com/todvora/gh-events-widget.git
+  - secure: Q35UUK7xEHpcHvdPVj1oa9Yv9InkAivbsgvOsRtN9CYgDVNDa4KkzQXLSDhlTLc12gSYe1JrXBx3ohSZuxSksJ6zPFYo5tjzLk672RBy/8bnIM942LeE82osfaNiyPEroq+Wk8NO/1sP5Lt+/SaJaXtaqHIXdTvQBKRT++7YdB7a4WjJU8VLtT5TGXYqZK3mANipY9+JIT0md/BFofGO6nBjy2K4KQ4E/lpo23CnWwtmD+JF0EhwwzgrglrWCu8ibbj31G0J4m5ZzZBEZQ18Js1zQ1shG2yhRYhWXlfp2TyCvkWgdd7s8eY3WSDe0ZX4yPTj7I2LljmhSQe3b6X0X3/qagxo2frthyWUKp/7w2MtZL8/9TZfKMz+Gog8lfh0gWIpfEXC9g1VI/oehaHW4WOWAyklV/NPoeimLl/EXTulrFqymsuLeG2OPWi5NBDsN1CLvD+Z7wJlEQPUJSpELVLE2dq74z8S2l40gcAW+DD8RM+PAFnUabCmcjZeCLYcQBMrUTyQQ42N/kdU8wungZTVfX+6op2msogzvGGk558TFfsv0noU2WeGoSvqzyrTWiZKaXtVe5R8lw4kELLQIwnrFdFUKDqRRjbvcxGfoHYA7JUwpdVItzz5P3+u9wVB/jvpKtz1Gt1YqFi5NNh63+T2Tj/J6+ZT07+lRGLcZUY=
 script:
 - npm test
-after_success:
-- npm run distribute
+
+deploy:
+	skip_cleanup: true
+  # on:
+  #   tags: true
+  provider: script
+  script: npm run distribute
