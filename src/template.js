@@ -1,16 +1,23 @@
 module.exports = (events, config) =>`
-  <div class="gh-events-widget">
+  <div class="gh-events-widget ${config.skin}">
     <div class="header">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAACE0lEQVR4XsWW4W3iQBCFjZUC6CCbCs6IAoAKjg5iKri4AqAC6MDpIFwFNgUg0kGcCuIOcrPos/S0K+zzn7uVnpbR7ry3452ZZZIMjPl8ntm0NiwMDvjRgLPh9XK5NH08kx6BpU1bg81/NWrD3gTrQSEEpgi8yEJrOBk+IUw4wCPRToXiiGB7VwiRypCx3uD0OvB5c6J3LLwbViqW9oh48lmvCGDPDJ8EjurGqUJgKyIbczZI+MNirffxviK2jS7e8A1KifLN8GUo5XTRnRp27LviVwrfLZkeumjkTgrhWTPnBn+Ytota7mLa3Y2sFSSLg7tOqRNSOMoWrQ2nIkLsguxM4Njjt/QaqZy61YtXoRF4DxKkxVx7oQXGKbg3R6RjxhK/JOBcpBL6J7Nm4fiBX8DpVChsHW60ROxXi9A/GKR3Q1TP1AqZRf8aj1tdYfxgblKEupAby5adh9TTWBTC0arQGSOzRU3PmloYMzb4hQV/vj1s0i5ygzMc/CztqZI9EVhfqiJcrJPyQvRB7yq731E/jJHd6X8frFfavfdyTwe6sB9XGubBjLeBulEc4IJbHj7IXjA3tJNqKPu4z0nwCJaYR1srJCKU6VVs/GV4gmQW9L6j2Pq5yk4ELpIJIem4KxHL+XS5RFUw/1abPVd8+p9yFZMTO6KrsH8G786zfAEn0SLy//9uxaAG8oE/kCeK/e74A3EqFEl9t0n9AAAAAElFTkSuQmCC">
-    Github activity of <a href="https://github.com/${config.user}">@${config.user}</a></div>
+    <svg height='20' role='img' version='1.1' viewBox='0 0 16 16' width='20'><path d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z'></path></svg>
+    Activity of <a href="https://github.com/${config.user}">@${config.user}</a></div>
     ${events.map(event => `
-      <div class="event">
+      <div class="event ${event.type}">
+        ${config['display-authors'] ? `
+        <div class="actor">
+          <img src="${event.actor.avatar}s=24" width="24" height="24" />
+          <a href="${event.actor.url}">${event.actor.login}</a>
+        </div>`
+        :''}
         <span class="text">${event.text}</span>
         <span class="date">${event.date}</span>
-        <span class="link"><a href="${event.url}">Details »</a></span>
+        <span class="link"><a href="${event.url}">details »</a></span>
         <div style="clear:both"></div>
       </div>
       `)
     .join('')}
+    <div class="footer"><a href="https://github.com/todvora/gh-events-widget" target="_blank">gh-events-widget</a></div>
   </div>
 `;

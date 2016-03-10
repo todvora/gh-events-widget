@@ -2,24 +2,30 @@ const jsonp = require('jsonp-es6');
 const date = require('./lib/utils/date');
 const css = require('./style.css');
 const template = require('./template');
-
-const handlers = {
-  PushEvent: require('./lib/handlers/PushEvent'),
-  CreateEvent: require('./lib/handlers/CreateEvent'),
-  IssueCommentEvent: require('./lib/handlers/IssueCommentEvent'),
-  PullRequestEvent: require('./lib/handlers/PullRequestEvent') ,
-  WatchEvent: require('./lib/handlers/WatchEvent'),
-  IssuesEvent: require('./lib/handlers/IssuesEvent'),
-  AnyEvent: require('./lib/handlers/Default')
-};
+const handlers = require('./lib/handlers/registry');
+const stringUtils = require('./lib/utils/strings')
 
 const mapEvent = (event) => {
+
   const handler = handlers[event.type] || handlers.AnyEvent;
+  var text = '';
+  try {
+    var text = handler.text(event)
+  } catch(err) {
+    text = handlers.AnyEvent.text(event);
+  }
+
   return {
-    text: handler.text(event),
+    text: stringUtils.escapeHtml(text),
     url: handler.url(event),
-    date: date.pretty(event.created_at)
-  };
+    date: date.pretty(event.created_at),
+    type: event.type,
+    actor: {
+      login: event.actor.login,
+      url: `https://github.com/${event.actor.login}`,
+      avatar: event.actor.avatar_url
+    }
+  }
 };
 
 const loadData = (config) => {
@@ -39,6 +45,9 @@ const loadData = (config) => {
 
 function render(config, data) {
   var iframe = document.createElement('iframe');
+  iframe.onload = function() {
+    makeDocument(iframe, config, data);
+  };
   iframe.setAttribute('width', '100%');
   iframe.setAttribute('src', 'about:blank');
   iframe.setAttribute('scrolling', 'no');
@@ -47,28 +56,14 @@ function render(config, data) {
   var element = document.querySelectorAll('a[data-widget-id="'+config.widgetId+'"]')[0];
 
   element.parentNode.replaceChild(iframe, element);
-  iframe.onload = function() {
-    makeDocument(iframe, config, data);
-  };
+
 }
 
 function makeDocument(frame, config, data) {
   var doc = document.implementation.createHTMLDocument('New Document');
-
-  doc.body.style.margin = 0;
-  doc.body.style.padding = 0;
-  var p = doc.createElement('p');
-  p.style.margin = 0;
-  p.style.padding = 0;
-    //p.style['word-break'] = 'break-all';
-  p.innerHTML = data;
-  try {
-    doc.body.appendChild(p);
-  } catch(e) {
-    console.log(e);
-  }
-
-
+  var div = doc.createElement('div');
+  div.innerHTML = data;
+  doc.body.appendChild(div);
   var link = doc.createElement('style');
   link.type = 'text/css';
   link.rel = 'stylesheet';
@@ -76,19 +71,17 @@ function makeDocument(frame, config, data) {
   link.appendChild(doc.createTextNode(`${css} ${config.style}`));
   doc.head.appendChild(link);
 
-
   var destDocument = frame.contentDocument;
   var srcNode = doc.documentElement;
   var newNode = destDocument.importNode(srcNode, true);
   destDocument.replaceChild(newNode, destDocument.documentElement);
 
+  // console.log(destDocument.body);
   frame.style.height = destDocument.body.offsetHeight + 'px';
 
   destDocument.body.onresize = () => {
     frame.style.height = destDocument.body.offsetHeight + 'px';
   };
-
-
   frame.style.border = 0;
   frame.style.overflow = 'hidden';
 }
@@ -98,7 +91,9 @@ var initWidget = function(element, widgetId) {
     user: element.getAttribute('data-user'),
     count: element.getAttribute('data-count') || 5,
     events: element.getAttribute('data-events'),
+    skin: element.getAttribute('data-skin'),
     style: element.getAttribute('data-style') || '',
+    'display-authors': element.getAttribute('data-display-authors') || false,
     widgetId: 'gh_widget_' + widgetId
   };
   loadData(config);
@@ -107,7 +102,6 @@ var initWidget = function(element, widgetId) {
 
 var initWidgets = function() {
   var links = document.getElementsByClassName('gh-events');
-  console.log(links);
   var arr = Array.prototype.slice.call(links);
   arr.forEach(initWidget);
 };

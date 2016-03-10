@@ -1,3 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+}
+
 .gh-events-widget {
   max-width: 350px;
 }
@@ -5,7 +18,7 @@
 .event {
   position: relative;
   padding:10px;
-  border: 1px solid #f5f5f5;
+  border: 1px solid #ddd;
   border-top: 0;
 }
 
@@ -34,13 +47,13 @@
 
 .header {
   padding: 5px 10px;
-  border: 1px solid  #f5f5f5;
+  border: 1px solid  #ddd;
   border-radius: 5px 5px 0 0;
-  background-color: #fcfcfc;
+  background-color: #f0f0f0;
 }
 
-.header img {
-  vertical-align: text-bottom;;
+.header svg {
+  vertical-align: text-bottom;
 }
 
 .header a {
@@ -54,4 +67,43 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.footer {
+  padding-top: 5px;
+  text-align: right;
+  font-size: 70%;
+}
+
+.event .actor img {
+  float: left;
+  max-width: 25px;
+  margin: 0 5px 5px 0;
+}
+
+/* LIGHT skin */
+
+
+/* DARK skin */
+
+.dark, .dark a {
+  color: rgb(245, 248, 250);
+}
+
+.dark .event, .dark .header {
+  border-color: rgba(0,0,0,0.3);
+}
+
+.dark .header {
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+}
+
+.dark .header svg {
+  fill: rgb(245, 248, 250);
+}
+
+
+.dark .event:hover {
+  background-color: rgba(0,0,0,0.3);
 }

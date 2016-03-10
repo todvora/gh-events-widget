@@ -1,0 +1,19 @@
+sudo: false
+language: node_js
+node_js:
+- '5.0'
+cache:
+  directories:
+  - node_modules
+install:
+- npm install
+env:
+  global:
+  - GH_USERNAME: Travis CI
+  - GH_EMAIL: todvora@gmail.com
+  - GH_REF: github.com/todvora/extrade.git
+  - secure: CN9P7Bi/hNupcpa9XhUM0OQnwqrcITxZ2fs+B2L3TGAfIM68zpXoty1qrLbExsvnB1z7X0outEvMCazpAFtBd70esvyRTltbIljm7y4ZuLNwpqUaHsTwgZJj9QN1QnwhT6t8vjxKdt1p3NqGLusCRYobvcsE2YEulyHSMjSvsEb0Vg5rzmNtvfuntj7wDCAYBUxhyXhLn6RFVOu7RNuQ/wrWVCMaaCKMyaCYotC2LmmfuKYUArKj46DSl2R/wHObVqeO/kD0UA/68mYUM61D+VLD9ddWqVEjcc/how5ShKyKZ9fRyyRpoxL24ohCnrVQXNpX7Ltjm+Xl/xkSqdrEDvlvveUuP/wUNRh+GWaiLVOrjz0viYoCQBqz/q9HzYuXV0DBdsKupxpRE4UNyeHyQFlAV/7df833U70hVMIgtNqnLQP6Jf+4T5BmnIT5W1gASMb9ZEFRKJL8ZYao9xyfVkpEKKGq2mghwtMqwbEpKZAS6jkGT3ebCz+2QWhoPNv1B2BIN4LuVj+JSZFziYT+k/U69A6i0nNDC1sqF00eanKmr2tKRWx4un+h7HZ8TmNe1EQNAK/DmgJmR4Jvn0vmRcAE66GioJomClCVG7WhfH/URvvNGiKvN/cmX8eZDlvjxJS6T2jeTOChDih8ZYSXuUrH3Q9DJoVJmPgV1z6Rd8Q=
+script:
+- npm test
+after_success:
+- npm run distribute

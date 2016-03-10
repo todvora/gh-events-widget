@@ -1,8 +1,8 @@
 function getCommitsText(payload) {
-  if(payload.size > 1) {
-    return `${payload.size} commits`;
+  if(payload.size == 1) {
+    return `«${payload.commits[0].message}»`;
   } else {
-    return `&laquo;${payload.commits[0].message}&raquo;`;
+    return `${payload.size} commits`;
   }
 }
 
