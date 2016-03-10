@@ -17,8 +17,6 @@ script:
 - npm test
 
 deploy:
-	skip_cleanup: true
-  # on:
-  #   tags: true
+  skip_cleanup: true
   provider: script
   script: npm run distribute
