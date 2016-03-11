@@ -18,12 +18,12 @@ module.exports = (events, config) =>`
         ${config['display-authors'] !== 'false' ? `
         <div class="actor">
           <img src="${event.actor.avatar}s=24" width="24" height="24" />
-          <a href="${event.actor.url}">${event.actor.login}</a>
+          <a href="${event.actor.url}" target="_blank">${event.actor.login}</a>
         </div>`
         :''}
         <span class="text">${escape(event.text)}</span>
         <span class="date">${dateToStr(event.date)}</span>
-        <span class="link"><a href="${event.url}">details »</a></span>
+        <span class="link"><a href="${event.url} target="_blank"">details »</a></span>
         <div style="clear:both"></div>
       </div>
       `)
