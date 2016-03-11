@@ -6,9 +6,9 @@ const iframe = require('./lib/browser/iframe');
 
 const render = (config, data, element) => {
   const htmlContent = template(data, config);
-  const stylesheet = `${css} ${config.style}`
+  const stylesheet = `${css} ${config.style}`;
   element.parentNode.replaceChild(iframe.create(htmlContent, stylesheet), element);
-}
+};
 
 const readConfig = (element) => {
   return {
@@ -18,8 +18,8 @@ const readConfig = (element) => {
     skin: element.getAttribute('data-skin'),
     style: element.getAttribute('data-style') || '',
     'display-authors': element.getAttribute('data-display-authors') || false
-  }
-}
+  };
+};
 
 const initWidget = (element) => {
   const config = readConfig(element);

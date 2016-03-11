@@ -6,7 +6,7 @@ const safeEventText = (handler, event) => {
   } catch(err) {
     return handlers.AnyEvent.text(event);
   }
-}
+};
 
 const mapEvent = (event) => {
   const handler = handlers[event.type] || handlers.AnyEvent;
