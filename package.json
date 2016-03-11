@@ -15,6 +15,14 @@
   },
   "author": "Tomas Dvorak <todvora@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/todvora/gh-events-widget",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/todvora/gh-events-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/todvora/gh-events-widget/issues"
+  },
   "browserify-css": {
     "autoInject": false,
     "minify": true
