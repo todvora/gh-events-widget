@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 set -e # halt script on error
 
@@ -10,8 +10,8 @@ mkdir dist/lib
 
 cd dist
 
-git config user.name "${GH_USERNAME}"
-git config user.email "${GH_EMAIL}"
+git config --global user.name "${GH_USERNAME}"
+git config --global user.email "${GH_EMAIL}"
 git init
 
 cp -r ../build/* lib/
@@ -19,4 +19,4 @@ cp -r ../embed/* .
 
 git add .
 git commit -m "Deployed ${PACKAGE_VERSION} to Github Pages"
-#git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
