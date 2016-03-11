@@ -23,7 +23,7 @@ module.exports = (events, config) =>`
         :''}
         <span class="text">${escape(event.text)}</span>
         <span class="date">${dateToStr(event.date)}</span>
-        <span class="link"><a href="${event.url} target="_blank"">details »</a></span>
+        <span class="link"><a href="${event.url} target="_blank">details »</a></span>
         <div style="clear:both"></div>
       </div>
       `)
