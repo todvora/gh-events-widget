@@ -1,103 +1,31 @@
-const jsonp = require('jsonp-es6');
-const date = require('./lib/utils/date');
-const css = require('./style.css');
 const template = require('./template');
-const handlers = require('./lib/handlers/registry');
-const stringUtils = require('./lib/utils/strings')
+const request = require('jsonp-es6');
+const events = require('./lib/events');
+const css = require('./style.css');
+const iframe = require('./lib/browser/iframe');
 
-const mapEvent = (event) => {
+const render = (config, data, element) => {
+  const htmlContent = template(data, config);
+  const stylesheet = `${css} ${config.style}`
+  element.parentNode.replaceChild(iframe.create(htmlContent, stylesheet), element);
+}
 
-  const handler = handlers[event.type] || handlers.AnyEvent;
-  var text = '';
-  try {
-    var text = handler.text(event)
-  } catch(err) {
-    text = handlers.AnyEvent.text(event);
-  }
-
+const readConfig = (element) => {
   return {
-    text: stringUtils.escapeHtml(text),
-    url: handler.url(event),
-    date: date.pretty(event.created_at),
-    type: event.type,
-    actor: {
-      login: event.actor.login,
-      url: `https://github.com/${event.actor.login}`,
-      avatar: event.actor.avatar_url
-    }
-  }
-};
-
-const loadData = (config) => {
-  jsonp('https://api.github.com/users/'+config.user+'/events/public', {})
-    .then(function(data) {
-      var transformed = data.data;
-      if(config.events) {
-        transformed = transformed.filter(event => config.events.indexOf(event.type) > -1);
-      }
-      transformed = transformed
-        .slice(0, Math.min(config.count, transformed.length))
-        .map(mapEvent);
-      render(config, template(transformed, config));
-    })
-    .catch(err => console.error(err));
-};
-
-function render(config, data) {
-  var iframe = document.createElement('iframe');
-  iframe.onload = function() {
-    makeDocument(iframe, config, data);
-  };
-  iframe.setAttribute('width', '100%');
-  iframe.setAttribute('src', 'about:blank');
-  iframe.setAttribute('scrolling', 'no');
-  iframe.setAttribute('id', config.widgetId);
-
-  var element = document.querySelectorAll('a[data-widget-id="'+config.widgetId+'"]')[0];
-
-  element.parentNode.replaceChild(iframe, element);
-
-}
-
-function makeDocument(frame, config, data) {
-  var doc = document.implementation.createHTMLDocument('New Document');
-  var div = doc.createElement('div');
-  div.innerHTML = data;
-  doc.body.appendChild(div);
-  var link = doc.createElement('style');
-  link.type = 'text/css';
-  link.rel = 'stylesheet';
-
-  link.appendChild(doc.createTextNode(`${css} ${config.style}`));
-  doc.head.appendChild(link);
-
-  var destDocument = frame.contentDocument;
-  var srcNode = doc.documentElement;
-  var newNode = destDocument.importNode(srcNode, true);
-  destDocument.replaceChild(newNode, destDocument.documentElement);
-
-  // console.log(destDocument.body);
-  frame.style.height = destDocument.body.offsetHeight + 'px';
-
-  destDocument.body.onresize = () => {
-    frame.style.height = destDocument.body.offsetHeight + 'px';
-  };
-  frame.style.border = 0;
-  frame.style.overflow = 'hidden';
-}
-
-var initWidget = function(element, widgetId) {
-  var config = {
     user: element.getAttribute('data-user'),
     count: element.getAttribute('data-count') || 5,
     events: element.getAttribute('data-events'),
     skin: element.getAttribute('data-skin'),
     style: element.getAttribute('data-style') || '',
-    'display-authors': element.getAttribute('data-display-authors') || false,
-    widgetId: 'gh_widget_' + widgetId
-  };
-  loadData(config);
-  element.setAttribute('data-widget-id', config.widgetId);
+    'display-authors': element.getAttribute('data-display-authors') || false
+  }
+}
+
+const initWidget = (element) => {
+  const config = readConfig(element);
+  events.load(config, request)
+    .then((data) => render(config, data, element))
+    .catch((err) => console.error(err));
 };
 
 var initWidgets = function() {
@@ -106,6 +34,6 @@ var initWidgets = function() {
   arr.forEach(initWidget);
 };
 
+// export init function to be callable later, if needed
 window.initWidgets = initWidgets;
-
 document.addEventListener('DOMContentLoaded', initWidgets, false);

@@ -12,7 +12,6 @@ var getConfig = function(form) {
         config[key] = value;
     }
   }
-  console.log(config);
   return config;
 };
 
@@ -20,7 +19,7 @@ var createScript = function() {
   var fragment = document.createElement('div');
   var script = document.createElement('script');
   script.setAttribute('type', 'text/javascript');
-  script.setAttribute('src', 'https://todvora.github.io/gh-events-widget/dist/gh-events-widget.js');
+  script.setAttribute('src', 'https://todvora.github.io/gh-events-widget/lib/gh-events-widget.js');
   fragment.appendChild(script);
   return fragment.innerHTML;
 }
@@ -67,7 +66,6 @@ document.addEventListener('DOMContentLoaded',function() {
   }
 
   document.querySelector('pre.customcss').onclick = function() {
-    console.log('click' + this.innerHTML);
     var area = document.querySelector('textarea[name="data-style"]');
     area.value += this.innerHTML;
   };

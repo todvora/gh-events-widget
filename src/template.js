@@ -1,3 +1,13 @@
+const date = require('./lib/utils/date');
+
+const escape = (text) => {
+  var div = document.createElement('div');
+  div.appendChild(document.createTextNode(text));
+  return div.innerHTML;
+};
+
+const dateToStr = (text) => date.pretty(text);
+
 module.exports = (events, config) =>`
   <div class="gh-events-widget ${config.skin}">
     <div class="header">
@@ -5,14 +15,14 @@ module.exports = (events, config) =>`
     Activity of <a href="https://github.com/${config.user}">@${config.user}</a></div>
     ${events.map(event => `
       <div class="event ${event.type}">
-        ${config['display-authors'] ? `
+        ${config['display-authors'] !== 'false' ? `
         <div class="actor">
           <img src="${event.actor.avatar}s=24" width="24" height="24" />
           <a href="${event.actor.url}">${event.actor.login}</a>
         </div>`
         :''}
-        <span class="text">${event.text}</span>
-        <span class="date">${event.date}</span>
+        <span class="text">${escape(event.text)}</span>
+        <span class="date">${dateToStr(event.date)}</span>
         <span class="link"><a href="${event.url}">details »</a></span>
         <div style="clear:both"></div>
       </div>

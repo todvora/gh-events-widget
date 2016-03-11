@@ -7,11 +7,11 @@
     "lint": "node_modules/.bin/eslint ./src --fix",
     "pretest": "node_modules/.bin/eslint ./src",
     "test": "echo \"Waring: no test specified\"",
-    "watch": "node_modules/.bin/watchify ./src/index.js -o dist/gh-events-widget.js -t browserify-css -t [ babelify --presets [ es2015 ] ]",
-    "serve": "http-server -p 4000 &",
+    "watch": "node_modules/.bin/watchify ./src/index.js -o build/gh-events-widget.js -t browserify-css -t [ babelify --presets [ es2015 ] ]",
+    "serve": "node server.js &",
     "dev": "npm run serve & npm run watch",
-    "compile": "node_modules/.bin/browserify ./src/index.js -o dist/gh-events-widget.js -t browserify-css -t [ babelify --presets [ es2015] ] -g uglifyify",
-    "distribute": "npm run compile && node bin/distribute"
+    "compile": "node_modules/.bin/browserify ./src/index.js -o build/gh-events-widget.js -t browserify-css -t [ babelify --presets [ es2015] ] -g uglifyify",
+    "distribute": "npm run compile && bin/deploy-ghpages.sh"
   },
   "author": "Tomas Dvorak <todvora@gmail.com>",
   "license": "MIT",
@@ -21,11 +21,10 @@
     "browserify": "^13.0.0",
     "browserify-css": "^0.9.0",
     "eslint": "^2.3.0",
-    "gh-pages": "^0.11.0",
-    "http-server": "^0.9.0",
+    "express": "^4.13.4",
     "jsonp-es6": "^1.0.0",
+    "ncp": "^2.0.0",
     "uglifyify": "^3.0.1",
-    "uglifyjs": "^2.4.10",
     "watchify": "^3.7.0"
   }
 }

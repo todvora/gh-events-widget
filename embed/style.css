@@ -1,15 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: #000;
+}
+
 #container {
-  max-width:1200px;
+  max-width:1000px;
   margin:0px auto;
 }
 
 #configuration {
-  width:50%;
+  width:70%;
   float:left;
 }
 
 #preview {
-  width:50%;
+  width:30%;
   float:left;
 }
 
@@ -74,4 +86,8 @@ input[type=submit] {
 
 pre.customcss {
   cursor: pointer;
+}
+
+.footer {
+  clear: both;
 }

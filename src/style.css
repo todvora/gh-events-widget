@@ -11,19 +11,11 @@ html, body {
   padding:0;
 }
 
-.gh-events-widget {
-  max-width: 350px;
-}
-
 .event {
   position: relative;
   padding:10px;
-  border: 1px solid #ddd;
+  border: 1px solid;
   border-top: 0;
-}
-
-.event:hover {
-  background-color: #fcfcfc;
 }
 
 .text {
@@ -42,14 +34,12 @@ html, body {
   display: block;
   float:right;
   font-size: 80%;
-  color:black;
 }
 
 .header {
   padding: 5px 10px;
-  border: 1px solid  #ddd;
+  border: 1px solid;
   border-radius: 5px 5px 0 0;
-  background-color: #f0f0f0;
 }
 
 .header svg {
@@ -61,7 +51,6 @@ html, body {
 }
 
 a {
-  color:black;
   text-decoration: none;
 }
 
@@ -82,28 +71,31 @@ a:hover {
 }
 
 /* LIGHT skin */
-
-
-/* DARK skin */
-
-.dark, .dark a {
-  color: rgb(245, 248, 250);
+.light .event, .light .header, .light .event:hover  {
+  border-color: rgba(218, 218, 218, 0.8);
 }
 
-.dark .event, .dark .header {
+.light .header, .light .event:hover {
+  background-color: rgba(218, 218, 218, 0.8);
+  color: #000;
+}
+
+.light .header svg, .light, .light a {
+  fill: #000;
+  color: #000;
+}
+
+/* DARK skin */
+.dark .event, .dark .header, .dark .event:hover  {
   border-color: rgba(0,0,0,0.3);
 }
 
-.dark .header {
+.dark .header, .dark .event:hover {
   background-color: rgba(0,0,0,0.3);
-  color: white;
+  color: #fff;
 }
 
-.dark .header svg {
+.dark .header svg, .dark, .dark a {
   fill: rgb(245, 248, 250);
-}
-
-
-.dark .event:hover {
-  background-color: rgba(0,0,0,0.3);
+  color: rgb(245, 248, 250);
 }
