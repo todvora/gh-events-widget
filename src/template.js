@@ -28,6 +28,6 @@ module.exports = (events, config) =>`
       </div>
       `)
     .join('')}
-    <div class="footer"><a href="https://github.com/todvora/gh-events-widget" target="_blank">gh-events-widget</a></div>
+    <div class="footer"><a href="https://todvora.github.io/gh-events-widget/" target="_blank">gh-events-widget</a></div>
   </div>
 `;
