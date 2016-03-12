@@ -4,8 +4,6 @@ const events = require('./lib/events');
 const css = require('./style.css');
 const iframe = require('./lib/browser/iframe');
 
-let isInitialized = false;
-
 const render = (config, data, element) => {
   const htmlContent = template(data, config);
   const stylesheet = `${css} ${config.style}`;
@@ -31,7 +29,6 @@ const initWidget = (element) => {
 };
 
 var initWidgets = function() {
-  isInitialized = true;
   var links = document.getElementsByClassName('gh-events');
   var arr = Array.prototype.slice.call(links);
   arr.forEach(initWidget);
@@ -39,9 +36,9 @@ var initWidgets = function() {
 
 // export init function to be callable later, if needed
 window.initWidgets = initWidgets;
-document.addEventListener('DOMContentLoaded', initWidgets, false);
 
-// catch the case, where script is loaded after dom ready event
-if(document.readyState  == 'complete' && !isInitialized) {
-  initWidgets();
-}
+document.onreadystatechange = () => {
+  if (document.readyState == "complete") {
+    initWidgets();
+  }
+};
