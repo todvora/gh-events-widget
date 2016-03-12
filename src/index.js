@@ -38,7 +38,7 @@ var initWidgets = function() {
 window.initWidgets = initWidgets;
 
 document.onreadystatechange = () => {
-  if (document.readyState == "complete") {
+  if (document.readyState == 'complete') {
     initWidgets();
   }
 };
