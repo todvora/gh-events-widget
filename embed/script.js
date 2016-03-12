@@ -20,6 +20,7 @@ var createScript = function() {
   var script = document.createElement('script');
   script.setAttribute('type', 'text/javascript');
   script.setAttribute('src', 'https://todvora.github.io/gh-events-widget/lib/gh-events-widget.js');
+  script.setAttribute('async', true);
   fragment.appendChild(script);
   return fragment.innerHTML;
 }
