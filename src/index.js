@@ -1,3 +1,5 @@
+require('es6-promise').polyfill();
+
 const template = require('./template');
 const request = require('jsonp-es6');
 const events = require('./lib/events');
