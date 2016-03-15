@@ -12,7 +12,7 @@
     "dev": "npm run serve & npm run watch",
     "compile": "node_modules/.bin/browserify ./src/index.js -o build/gh-events-widget.js -t browserify-css -t [ babelify --presets [ es2015] ] -g uglifyify",
     "distribute": "npm run compile && bin/deploy-ghpages.sh",
-    "patch": "npm run test && npm version patch && git push --follow-tags"
+    "version:patch": "npm run test && npm version patch && git push --follow-tags"
   },
   "author": "Tomas Dvorak <todvora@gmail.com>",
   "license": "MIT",
