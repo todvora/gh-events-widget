@@ -3,17 +3,16 @@ const makeDocument = (frame, data, styles) => {
   var div = doc.createElement('div');
   div.innerHTML = data;
   doc.body.appendChild(div);
-  var link = doc.createElement('style');
-  link.type = 'text/css';
-  link.rel = 'stylesheet';
-
-  link.appendChild(doc.createTextNode(styles));
-  doc.head.appendChild(link);
 
   var destDocument = frame.contentDocument;
   var srcNode = doc.documentElement;
   var newNode = destDocument.importNode(srcNode, true);
   destDocument.replaceChild(newNode, destDocument.documentElement);
+
+  var link = destDocument.createElement('style');
+  link.appendChild(destDocument.createTextNode(styles));
+  destDocument.body.appendChild(link);
+
   frame.style.height = destDocument.body.offsetHeight + 'px';
   destDocument.body.onresize = () => {
     frame.style.height = destDocument.body.offsetHeight + 'px';
