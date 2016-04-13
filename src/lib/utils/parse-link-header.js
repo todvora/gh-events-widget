@@ -14,6 +14,9 @@ const getUrlParams = (url) => {
 };
 
 const fromHeader = (header) => {
+  if(!header) {
+    return {};
+  }
   const links = header.split(',');
   return links
     .map(link => {
@@ -41,6 +44,9 @@ const fromHeader = (header) => {
 };
 
 const fromMeta = (meta) => {
+  if(!meta) {
+    return {};
+  }
   return meta
     .map(row => {
       const result = {};
