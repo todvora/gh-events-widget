@@ -6,8 +6,8 @@ const events = require('./lib/events');
 const css = require('./style.css');
 const iframe = require('./lib/browser/iframe');
 
-const render = (config, data, element) => {
-  const htmlContent = template(data, config);
+const render = (err, config, data, element) => {
+  const htmlContent = template(err, data, config);
   const stylesheet = `${css} ${config.style}`;
   element.parentNode.replaceChild(iframe.create(htmlContent, stylesheet), element);
 };
@@ -23,18 +23,11 @@ const readConfig = (element) => {
   };
 };
 
-const reqFunction = (url) => {
-  return request(url)
-    .then(response => {
-      return {data:response.data, headers: response.meta};
-    });
-};
-
 const initWidget = (element) => {
   const config = readConfig(element);
-  events.load(config, reqFunction)
-    .then((data) => render(config, data, element))
-    .catch((err) => console.error(err));
+  events.load(config)
+    .then((data) => render(null, config, data, element))
+    .catch((err) => render(err, config, [], element));
 };
 
 var initWidgets = function() {

@@ -10,6 +10,14 @@ const safeEventText = (handler, event) => {
   }
 };
 
+const limitEventsCount =(data, config) => {
+  if(data && (data.length > 0) && Number.isInteger(config.count)) {
+    return data.slice(0, Math.min(config.count, data.length));
+  } else {
+    return data;
+  }
+};
+
 const mapEvent = (event) => {
   const handler = handlers[event.type] || handlers.AnyEvent;
   return {
@@ -28,7 +36,6 @@ const mapEvent = (event) => {
 
 const load = (config) => {
   return request(`https://api.github.com/users/${config.user}/events/public`)
-    // .then(res => {console.log(res.navigation); return res;})
     .then((response) => response.data)
     .then((data) => {
       if(config.events) {
@@ -37,7 +44,7 @@ const load = (config) => {
         return data;
       }
     })
-    .then((data) => data.slice(0, Math.min(config.count, data.length)))
+    .then((data) => limitEventsCount(data, config))
     .then((data) => data.map(mapEvent));
 };
 

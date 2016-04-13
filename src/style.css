@@ -11,7 +11,7 @@ html, body {
   padding:0;
 }
 
-.event {
+.event, .error {
   position: relative;
   padding:10px;
   border: 1px solid;
@@ -71,7 +71,7 @@ a:hover {
 }
 
 /* LIGHT skin */
-.light .event, .light .header, .light .event:hover  {
+.light .event, .light .header, .light .event:hover, .light .error  {
   border-color: rgba(218, 218, 218, 0.8);
 }
 
@@ -86,7 +86,7 @@ a:hover {
 }
 
 /* DARK skin */
-.dark .event, .dark .header, .dark .event:hover  {
+.dark .event, .dark .header, .dark .event:hover, .dark .error  {
   border-color: rgba(0,0,0,0.3);
 }
 
