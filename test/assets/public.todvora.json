@@ -1,0 +1,2981 @@
+[
+  {
+    "id": "3881596511",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 15642233,
+      "name": "karpathy/convnetjs",
+      "url": "https://api.github.com/repos/karpathy/convnetjs"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-04-13T05:46:35Z"
+  },
+  {
+    "id": "3881586407",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 15642233,
+      "name": "karpathy/convnetjs",
+      "url": "https://api.github.com/repos/karpathy/convnetjs"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-04-13T05:41:52Z"
+  },
+  {
+    "id": "3871185222",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 1542219,
+      "name": "kpdecker/jsdiff",
+      "url": "https://api.github.com/repos/kpdecker/jsdiff"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-04-11T08:46:36Z"
+  },
+  {
+    "id": "3863225117",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 44180776,
+      "name": "ozum/joi18n",
+      "url": "https://api.github.com/repos/ozum/joi18n"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-04-08T08:28:09Z"
+  },
+  {
+    "id": "3854306706",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 44519483,
+      "name": "versionpress/versionpress",
+      "url": "https://api.github.com/repos/versionpress/versionpress"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-04-06T15:34:18Z",
+    "org": {
+      "id": 13979788,
+      "login": "versionpress",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/versionpress",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13979788?"
+    }
+  },
+  {
+    "id": "3854291080",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 3769679,
+      "name": "variety/variety",
+      "url": "https://api.github.com/repos/variety/variety"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/variety/variety/issues/116",
+        "repository_url": "https://api.github.com/repos/variety/variety",
+        "labels_url": "https://api.github.com/repos/variety/variety/issues/116/labels{/name}",
+        "comments_url": "https://api.github.com/repos/variety/variety/issues/116/comments",
+        "events_url": "https://api.github.com/repos/variety/variety/issues/116/events",
+        "html_url": "https://github.com/variety/variety/pull/116",
+        "id": 146030946,
+        "number": 116,
+        "title": "ParameterParsingTest fix",
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2016-04-05T15:52:38Z",
+        "updated_at": "2016-04-06T15:31:40Z",
+        "closed_at": "2016-04-06T15:30:40Z",
+        "pull_request": {
+          "url": "https://api.github.com/repos/variety/variety/pulls/116",
+          "html_url": "https://github.com/variety/variety/pull/116",
+          "diff_url": "https://github.com/variety/variety/pull/116.diff",
+          "patch_url": "https://github.com/variety/variety/pull/116.patch"
+        },
+        "body": "Just a minor test fix - correct propagation of errors."
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/variety/variety/issues/comments/206431173",
+        "html_url": "https://github.com/variety/variety/pull/116#issuecomment-206431173",
+        "issue_url": "https://api.github.com/repos/variety/variety/issues/116",
+        "id": 206431173,
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-04-06T15:31:40Z",
+        "updated_at": "2016-04-06T15:31:40Z",
+        "body": "No comments so I just merged it :-)"
+      }
+    },
+    "public": true,
+    "created_at": "2016-04-06T15:31:40Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3854285102",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 3769679,
+      "name": "variety/variety",
+      "url": "https://api.github.com/repos/variety/variety"
+    },
+    "payload": {
+      "push_id": 1054088719,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "ec8a9b77dd888ca88ee1f78da11d0b16bbb49b73",
+      "before": "974c7bf85f2d18b598f23528222e83db2c167aa6",
+      "commits": [
+        {
+          "sha": "d2e1c5d621a95baaf47ce6b040622af2c0752b1e",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "ParameterParsingTest fix",
+          "distinct": true,
+          "url": "https://api.github.com/repos/variety/variety/commits/d2e1c5d621a95baaf47ce6b040622af2c0752b1e"
+        },
+        {
+          "sha": "ec8a9b77dd888ca88ee1f78da11d0b16bbb49b73",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "Merge pull request #116 from todvora/master\n\nParameterParsingTest fix",
+          "distinct": true,
+          "url": "https://api.github.com/repos/variety/variety/commits/ec8a9b77dd888ca88ee1f78da11d0b16bbb49b73"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-04-06T15:30:41Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3854285058",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 3769679,
+      "name": "variety/variety",
+      "url": "https://api.github.com/repos/variety/variety"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 116,
+      "pull_request": {
+        "url": "https://api.github.com/repos/variety/variety/pulls/116",
+        "id": 65329019,
+        "html_url": "https://github.com/variety/variety/pull/116",
+        "diff_url": "https://github.com/variety/variety/pull/116.diff",
+        "patch_url": "https://github.com/variety/variety/pull/116.patch",
+        "issue_url": "https://api.github.com/repos/variety/variety/issues/116",
+        "number": 116,
+        "state": "closed",
+        "locked": false,
+        "title": "ParameterParsingTest fix",
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "Just a minor test fix - correct propagation of errors.",
+        "created_at": "2016-04-05T15:52:38Z",
+        "updated_at": "2016-04-06T15:30:40Z",
+        "closed_at": "2016-04-06T15:30:40Z",
+        "merged_at": "2016-04-06T15:30:40Z",
+        "merge_commit_sha": "ec8a9b77dd888ca88ee1f78da11d0b16bbb49b73",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/variety/variety/pulls/116/commits",
+        "review_comments_url": "https://api.github.com/repos/variety/variety/pulls/116/comments",
+        "review_comment_url": "https://api.github.com/repos/variety/variety/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/variety/variety/issues/116/comments",
+        "statuses_url": "https://api.github.com/repos/variety/variety/statuses/d2e1c5d621a95baaf47ce6b040622af2c0752b1e",
+        "head": {
+          "label": "todvora:master",
+          "ref": "master",
+          "sha": "d2e1c5d621a95baaf47ce6b040622af2c0752b1e",
+          "user": {
+            "login": "todvora",
+            "id": 4102775,
+            "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/todvora",
+            "html_url": "https://github.com/todvora",
+            "followers_url": "https://api.github.com/users/todvora/followers",
+            "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+            "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+            "organizations_url": "https://api.github.com/users/todvora/orgs",
+            "repos_url": "https://api.github.com/users/todvora/repos",
+            "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/todvora/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 51520092,
+            "name": "variety",
+            "full_name": "todvora/variety",
+            "owner": {
+              "login": "todvora",
+              "id": 4102775,
+              "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/todvora",
+              "html_url": "https://github.com/todvora",
+              "followers_url": "https://api.github.com/users/todvora/followers",
+              "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+              "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+              "organizations_url": "https://api.github.com/users/todvora/orgs",
+              "repos_url": "https://api.github.com/users/todvora/repos",
+              "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/todvora/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/todvora/variety",
+            "description": "A schema analyzer for MongoDB",
+            "fork": true,
+            "url": "https://api.github.com/repos/todvora/variety",
+            "forks_url": "https://api.github.com/repos/todvora/variety/forks",
+            "keys_url": "https://api.github.com/repos/todvora/variety/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/todvora/variety/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/todvora/variety/teams",
+            "hooks_url": "https://api.github.com/repos/todvora/variety/hooks",
+            "issue_events_url": "https://api.github.com/repos/todvora/variety/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/todvora/variety/events",
+            "assignees_url": "https://api.github.com/repos/todvora/variety/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/todvora/variety/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/todvora/variety/tags",
+            "blobs_url": "https://api.github.com/repos/todvora/variety/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/todvora/variety/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/todvora/variety/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/todvora/variety/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/todvora/variety/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/todvora/variety/languages",
+            "stargazers_url": "https://api.github.com/repos/todvora/variety/stargazers",
+            "contributors_url": "https://api.github.com/repos/todvora/variety/contributors",
+            "subscribers_url": "https://api.github.com/repos/todvora/variety/subscribers",
+            "subscription_url": "https://api.github.com/repos/todvora/variety/subscription",
+            "commits_url": "https://api.github.com/repos/todvora/variety/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/todvora/variety/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/todvora/variety/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/todvora/variety/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/todvora/variety/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/todvora/variety/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/todvora/variety/merges",
+            "archive_url": "https://api.github.com/repos/todvora/variety/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/todvora/variety/downloads",
+            "issues_url": "https://api.github.com/repos/todvora/variety/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/todvora/variety/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/todvora/variety/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/todvora/variety/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/todvora/variety/labels{/name}",
+            "releases_url": "https://api.github.com/repos/todvora/variety/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/todvora/variety/deployments",
+            "created_at": "2016-02-11T14:31:48Z",
+            "updated_at": "2016-03-14T14:40:18Z",
+            "pushed_at": "2016-04-05T15:37:43Z",
+            "git_url": "git://github.com/todvora/variety.git",
+            "ssh_url": "git@github.com:todvora/variety.git",
+            "clone_url": "https://github.com/todvora/variety.git",
+            "svn_url": "https://github.com/todvora/variety",
+            "homepage": "",
+            "size": 219,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": false,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "variety:master",
+          "ref": "master",
+          "sha": "974c7bf85f2d18b598f23528222e83db2c167aa6",
+          "user": {
+            "login": "variety",
+            "id": 2047615,
+            "avatar_url": "https://avatars.githubusercontent.com/u/2047615?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/variety",
+            "html_url": "https://github.com/variety",
+            "followers_url": "https://api.github.com/users/variety/followers",
+            "following_url": "https://api.github.com/users/variety/following{/other_user}",
+            "gists_url": "https://api.github.com/users/variety/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/variety/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/variety/subscriptions",
+            "organizations_url": "https://api.github.com/users/variety/orgs",
+            "repos_url": "https://api.github.com/users/variety/repos",
+            "events_url": "https://api.github.com/users/variety/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/variety/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 3769679,
+            "name": "variety",
+            "full_name": "variety/variety",
+            "owner": {
+              "login": "variety",
+              "id": 2047615,
+              "avatar_url": "https://avatars.githubusercontent.com/u/2047615?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/variety",
+              "html_url": "https://github.com/variety",
+              "followers_url": "https://api.github.com/users/variety/followers",
+              "following_url": "https://api.github.com/users/variety/following{/other_user}",
+              "gists_url": "https://api.github.com/users/variety/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/variety/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/variety/subscriptions",
+              "organizations_url": "https://api.github.com/users/variety/orgs",
+              "repos_url": "https://api.github.com/users/variety/repos",
+              "events_url": "https://api.github.com/users/variety/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/variety/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/variety/variety",
+            "description": "A schema analyzer for MongoDB",
+            "fork": false,
+            "url": "https://api.github.com/repos/variety/variety",
+            "forks_url": "https://api.github.com/repos/variety/variety/forks",
+            "keys_url": "https://api.github.com/repos/variety/variety/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/variety/variety/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/variety/variety/teams",
+            "hooks_url": "https://api.github.com/repos/variety/variety/hooks",
+            "issue_events_url": "https://api.github.com/repos/variety/variety/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/variety/variety/events",
+            "assignees_url": "https://api.github.com/repos/variety/variety/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/variety/variety/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/variety/variety/tags",
+            "blobs_url": "https://api.github.com/repos/variety/variety/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/variety/variety/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/variety/variety/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/variety/variety/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/variety/variety/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/variety/variety/languages",
+            "stargazers_url": "https://api.github.com/repos/variety/variety/stargazers",
+            "contributors_url": "https://api.github.com/repos/variety/variety/contributors",
+            "subscribers_url": "https://api.github.com/repos/variety/variety/subscribers",
+            "subscription_url": "https://api.github.com/repos/variety/variety/subscription",
+            "commits_url": "https://api.github.com/repos/variety/variety/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/variety/variety/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/variety/variety/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/variety/variety/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/variety/variety/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/variety/variety/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/variety/variety/merges",
+            "archive_url": "https://api.github.com/repos/variety/variety/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/variety/variety/downloads",
+            "issues_url": "https://api.github.com/repos/variety/variety/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/variety/variety/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/variety/variety/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/variety/variety/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/variety/variety/labels{/name}",
+            "releases_url": "https://api.github.com/repos/variety/variety/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/variety/variety/deployments",
+            "created_at": "2012-03-19T23:03:02Z",
+            "updated_at": "2016-04-06T00:57:50Z",
+            "pushed_at": "2016-04-06T15:30:40Z",
+            "git_url": "git://github.com/variety/variety.git",
+            "ssh_url": "git@github.com:variety/variety.git",
+            "clone_url": "https://github.com/variety/variety.git",
+            "svn_url": "https://github.com/variety/variety",
+            "homepage": "",
+            "size": 317,
+            "stargazers_count": 685,
+            "watchers_count": 685,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 107,
+            "mirror_url": null,
+            "open_issues_count": 11,
+            "forks": 107,
+            "open_issues": 11,
+            "watchers": 685,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/variety/variety/pulls/116"
+          },
+          "html": {
+            "href": "https://github.com/variety/variety/pull/116"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/variety/variety/issues/116"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/variety/variety/issues/116/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/variety/variety/pulls/116/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/variety/variety/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/variety/variety/pulls/116/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/variety/variety/statuses/d2e1c5d621a95baaf47ce6b040622af2c0752b1e"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 3,
+        "deletions": 2,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2016-04-06T15:30:40Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3848990104",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 3769679,
+      "name": "variety/variety",
+      "url": "https://api.github.com/repos/variety/variety"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 116,
+      "pull_request": {
+        "url": "https://api.github.com/repos/variety/variety/pulls/116",
+        "id": 65329019,
+        "html_url": "https://github.com/variety/variety/pull/116",
+        "diff_url": "https://github.com/variety/variety/pull/116.diff",
+        "patch_url": "https://github.com/variety/variety/pull/116.patch",
+        "issue_url": "https://api.github.com/repos/variety/variety/issues/116",
+        "number": 116,
+        "state": "open",
+        "locked": false,
+        "title": "ParameterParsingTest fix",
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "Just a minor test fix - correct propagation of errors.",
+        "created_at": "2016-04-05T15:52:38Z",
+        "updated_at": "2016-04-05T15:52:38Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/variety/variety/pulls/116/commits",
+        "review_comments_url": "https://api.github.com/repos/variety/variety/pulls/116/comments",
+        "review_comment_url": "https://api.github.com/repos/variety/variety/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/variety/variety/issues/116/comments",
+        "statuses_url": "https://api.github.com/repos/variety/variety/statuses/d2e1c5d621a95baaf47ce6b040622af2c0752b1e",
+        "head": {
+          "label": "todvora:master",
+          "ref": "master",
+          "sha": "d2e1c5d621a95baaf47ce6b040622af2c0752b1e",
+          "user": {
+            "login": "todvora",
+            "id": 4102775,
+            "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/todvora",
+            "html_url": "https://github.com/todvora",
+            "followers_url": "https://api.github.com/users/todvora/followers",
+            "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+            "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+            "organizations_url": "https://api.github.com/users/todvora/orgs",
+            "repos_url": "https://api.github.com/users/todvora/repos",
+            "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/todvora/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 51520092,
+            "name": "variety",
+            "full_name": "todvora/variety",
+            "owner": {
+              "login": "todvora",
+              "id": 4102775,
+              "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/todvora",
+              "html_url": "https://github.com/todvora",
+              "followers_url": "https://api.github.com/users/todvora/followers",
+              "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+              "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+              "organizations_url": "https://api.github.com/users/todvora/orgs",
+              "repos_url": "https://api.github.com/users/todvora/repos",
+              "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/todvora/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/todvora/variety",
+            "description": "A schema analyzer for MongoDB",
+            "fork": true,
+            "url": "https://api.github.com/repos/todvora/variety",
+            "forks_url": "https://api.github.com/repos/todvora/variety/forks",
+            "keys_url": "https://api.github.com/repos/todvora/variety/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/todvora/variety/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/todvora/variety/teams",
+            "hooks_url": "https://api.github.com/repos/todvora/variety/hooks",
+            "issue_events_url": "https://api.github.com/repos/todvora/variety/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/todvora/variety/events",
+            "assignees_url": "https://api.github.com/repos/todvora/variety/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/todvora/variety/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/todvora/variety/tags",
+            "blobs_url": "https://api.github.com/repos/todvora/variety/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/todvora/variety/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/todvora/variety/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/todvora/variety/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/todvora/variety/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/todvora/variety/languages",
+            "stargazers_url": "https://api.github.com/repos/todvora/variety/stargazers",
+            "contributors_url": "https://api.github.com/repos/todvora/variety/contributors",
+            "subscribers_url": "https://api.github.com/repos/todvora/variety/subscribers",
+            "subscription_url": "https://api.github.com/repos/todvora/variety/subscription",
+            "commits_url": "https://api.github.com/repos/todvora/variety/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/todvora/variety/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/todvora/variety/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/todvora/variety/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/todvora/variety/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/todvora/variety/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/todvora/variety/merges",
+            "archive_url": "https://api.github.com/repos/todvora/variety/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/todvora/variety/downloads",
+            "issues_url": "https://api.github.com/repos/todvora/variety/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/todvora/variety/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/todvora/variety/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/todvora/variety/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/todvora/variety/labels{/name}",
+            "releases_url": "https://api.github.com/repos/todvora/variety/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/todvora/variety/deployments",
+            "created_at": "2016-02-11T14:31:48Z",
+            "updated_at": "2016-03-14T14:40:18Z",
+            "pushed_at": "2016-04-05T15:37:43Z",
+            "git_url": "git://github.com/todvora/variety.git",
+            "ssh_url": "git@github.com:todvora/variety.git",
+            "clone_url": "https://github.com/todvora/variety.git",
+            "svn_url": "https://github.com/todvora/variety",
+            "homepage": "",
+            "size": 219,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": false,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "variety:master",
+          "ref": "master",
+          "sha": "974c7bf85f2d18b598f23528222e83db2c167aa6",
+          "user": {
+            "login": "variety",
+            "id": 2047615,
+            "avatar_url": "https://avatars.githubusercontent.com/u/2047615?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/variety",
+            "html_url": "https://github.com/variety",
+            "followers_url": "https://api.github.com/users/variety/followers",
+            "following_url": "https://api.github.com/users/variety/following{/other_user}",
+            "gists_url": "https://api.github.com/users/variety/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/variety/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/variety/subscriptions",
+            "organizations_url": "https://api.github.com/users/variety/orgs",
+            "repos_url": "https://api.github.com/users/variety/repos",
+            "events_url": "https://api.github.com/users/variety/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/variety/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 3769679,
+            "name": "variety",
+            "full_name": "variety/variety",
+            "owner": {
+              "login": "variety",
+              "id": 2047615,
+              "avatar_url": "https://avatars.githubusercontent.com/u/2047615?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/variety",
+              "html_url": "https://github.com/variety",
+              "followers_url": "https://api.github.com/users/variety/followers",
+              "following_url": "https://api.github.com/users/variety/following{/other_user}",
+              "gists_url": "https://api.github.com/users/variety/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/variety/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/variety/subscriptions",
+              "organizations_url": "https://api.github.com/users/variety/orgs",
+              "repos_url": "https://api.github.com/users/variety/repos",
+              "events_url": "https://api.github.com/users/variety/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/variety/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/variety/variety",
+            "description": "A schema analyzer for MongoDB",
+            "fork": false,
+            "url": "https://api.github.com/repos/variety/variety",
+            "forks_url": "https://api.github.com/repos/variety/variety/forks",
+            "keys_url": "https://api.github.com/repos/variety/variety/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/variety/variety/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/variety/variety/teams",
+            "hooks_url": "https://api.github.com/repos/variety/variety/hooks",
+            "issue_events_url": "https://api.github.com/repos/variety/variety/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/variety/variety/events",
+            "assignees_url": "https://api.github.com/repos/variety/variety/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/variety/variety/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/variety/variety/tags",
+            "blobs_url": "https://api.github.com/repos/variety/variety/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/variety/variety/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/variety/variety/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/variety/variety/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/variety/variety/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/variety/variety/languages",
+            "stargazers_url": "https://api.github.com/repos/variety/variety/stargazers",
+            "contributors_url": "https://api.github.com/repos/variety/variety/contributors",
+            "subscribers_url": "https://api.github.com/repos/variety/variety/subscribers",
+            "subscription_url": "https://api.github.com/repos/variety/variety/subscription",
+            "commits_url": "https://api.github.com/repos/variety/variety/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/variety/variety/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/variety/variety/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/variety/variety/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/variety/variety/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/variety/variety/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/variety/variety/merges",
+            "archive_url": "https://api.github.com/repos/variety/variety/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/variety/variety/downloads",
+            "issues_url": "https://api.github.com/repos/variety/variety/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/variety/variety/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/variety/variety/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/variety/variety/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/variety/variety/labels{/name}",
+            "releases_url": "https://api.github.com/repos/variety/variety/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/variety/variety/deployments",
+            "created_at": "2012-03-19T23:03:02Z",
+            "updated_at": "2016-04-05T13:47:12Z",
+            "pushed_at": "2016-04-05T15:52:38Z",
+            "git_url": "git://github.com/variety/variety.git",
+            "ssh_url": "git@github.com:variety/variety.git",
+            "clone_url": "https://github.com/variety/variety.git",
+            "svn_url": "https://github.com/variety/variety",
+            "homepage": "",
+            "size": 317,
+            "stargazers_count": 684,
+            "watchers_count": 684,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 107,
+            "mirror_url": null,
+            "open_issues_count": 12,
+            "forks": 107,
+            "open_issues": 12,
+            "watchers": 684,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/variety/variety/pulls/116"
+          },
+          "html": {
+            "href": "https://github.com/variety/variety/pull/116"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/variety/variety/issues/116"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/variety/variety/issues/116/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/variety/variety/pulls/116/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/variety/variety/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/variety/variety/pulls/116/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/variety/variety/statuses/d2e1c5d621a95baaf47ce6b040622af2c0752b1e"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 3,
+        "deletions": 2,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2016-04-05T15:52:38Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3848908462",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 51520092,
+      "name": "todvora/variety",
+      "url": "https://api.github.com/repos/todvora/variety"
+    },
+    "payload": {
+      "push_id": 1052189013,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "d2e1c5d621a95baaf47ce6b040622af2c0752b1e",
+      "before": "5568fd86f882715bd4b060bbf22cf9517491971b",
+      "commits": [
+        {
+          "sha": "974c7bf85f2d18b598f23528222e83db2c167aa6",
+          "author": {
+            "email": "JamesCropcho@users.noreply.github.com",
+            "name": "James Cropcho"
+          },
+          "message": "Merge pull request #114 from todvora/master\n\nES6 and ES7 features in tests (import, export, async & await)",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety/commits/974c7bf85f2d18b598f23528222e83db2c167aa6"
+        },
+        {
+          "sha": "d2e1c5d621a95baaf47ce6b040622af2c0752b1e",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "ParameterParsingTest fix",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety/commits/d2e1c5d621a95baaf47ce6b040622af2c0752b1e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-04-05T15:37:44Z"
+  },
+  {
+    "id": "3848903872",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 51520092,
+      "name": "todvora/variety",
+      "url": "https://api.github.com/repos/todvora/variety"
+    },
+    "payload": {
+      "push_id": 1052187385,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "5568fd86f882715bd4b060bbf22cf9517491971b",
+      "before": "6a908273bf216a29eecb588c6cd1f2eedc939421",
+      "commits": [
+        {
+          "sha": "5568fd86f882715bd4b060bbf22cf9517491971b",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "ParameterParsingTest fix",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety/commits/5568fd86f882715bd4b060bbf22cf9517491971b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-04-05T15:36:56Z"
+  },
+  {
+    "id": "3841774587",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 28618196,
+      "name": "w3c/css-houdini-drafts",
+      "url": "https://api.github.com/repos/w3c/css-houdini-drafts"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-04-04T08:33:11Z",
+    "org": {
+      "id": 379216,
+      "login": "w3c",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/w3c",
+      "avatar_url": "https://avatars.githubusercontent.com/u/379216?"
+    }
+  },
+  {
+    "id": "3836183404",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 3769679,
+      "name": "variety/variety",
+      "url": "https://api.github.com/repos/variety/variety"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/variety/variety/issues/114",
+        "repository_url": "https://api.github.com/repos/variety/variety",
+        "labels_url": "https://api.github.com/repos/variety/variety/issues/114/labels{/name}",
+        "comments_url": "https://api.github.com/repos/variety/variety/issues/114/comments",
+        "events_url": "https://api.github.com/repos/variety/variety/issues/114/events",
+        "html_url": "https://github.com/variety/variety/pull/114",
+        "id": 145164082,
+        "number": 114,
+        "title": "ES6 and ES7 features in tests (import, export, async & await)",
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2016-04-01T12:10:19Z",
+        "updated_at": "2016-04-01T17:00:34Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/variety/variety/pulls/114",
+          "html_url": "https://github.com/variety/variety/pull/114",
+          "diff_url": "https://github.com/variety/variety/pull/114.diff",
+          "patch_url": "https://github.com/variety/variety/pull/114.patch"
+        },
+        "body": "Let's bring in some ES6 and ES7 goodies to make the tests even easier to read, understand and write. The promises boilerplate replaced by async / await and requires replaced by ES6 imports / exports.\r\n\r\nWhat do you think? Step in the right direction or nonsense? "
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/variety/variety/issues/comments/204471335",
+        "html_url": "https://github.com/variety/variety/pull/114#issuecomment-204471335",
+        "issue_url": "https://api.github.com/repos/variety/variety/issues/114",
+        "id": 204471335,
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-04-01T17:00:34Z",
+        "updated_at": "2016-04-01T17:00:34Z",
+        "body": "No, those changes and dependencies are just for the tests. Variety is still dependencies-free and standalone. "
+      }
+    },
+    "public": true,
+    "created_at": "2016-04-01T17:00:35Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3834908499",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 3769679,
+      "name": "variety/variety",
+      "url": "https://api.github.com/repos/variety/variety"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 114,
+      "pull_request": {
+        "url": "https://api.github.com/repos/variety/variety/pulls/114",
+        "id": 64935172,
+        "html_url": "https://github.com/variety/variety/pull/114",
+        "diff_url": "https://github.com/variety/variety/pull/114.diff",
+        "patch_url": "https://github.com/variety/variety/pull/114.patch",
+        "issue_url": "https://api.github.com/repos/variety/variety/issues/114",
+        "number": 114,
+        "state": "open",
+        "locked": false,
+        "title": "ES6 and ES7 features in tests (import, export, async & await)",
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "Let's bring in some ES6 and ES7 goodies to make the tests even easier to read, understand and write. The promises boilerplate replaced by async / await and requires replaced by ES6 imports / exports.\r\n\r\nWhat do you think? Step in the right direction or nonsense? ",
+        "created_at": "2016-04-01T12:10:19Z",
+        "updated_at": "2016-04-01T12:10:19Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/variety/variety/pulls/114/commits",
+        "review_comments_url": "https://api.github.com/repos/variety/variety/pulls/114/comments",
+        "review_comment_url": "https://api.github.com/repos/variety/variety/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/variety/variety/issues/114/comments",
+        "statuses_url": "https://api.github.com/repos/variety/variety/statuses/6a908273bf216a29eecb588c6cd1f2eedc939421",
+        "head": {
+          "label": "todvora:master",
+          "ref": "master",
+          "sha": "6a908273bf216a29eecb588c6cd1f2eedc939421",
+          "user": {
+            "login": "todvora",
+            "id": 4102775,
+            "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/todvora",
+            "html_url": "https://github.com/todvora",
+            "followers_url": "https://api.github.com/users/todvora/followers",
+            "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+            "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+            "organizations_url": "https://api.github.com/users/todvora/orgs",
+            "repos_url": "https://api.github.com/users/todvora/repos",
+            "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/todvora/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 51520092,
+            "name": "variety",
+            "full_name": "todvora/variety",
+            "owner": {
+              "login": "todvora",
+              "id": 4102775,
+              "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/todvora",
+              "html_url": "https://github.com/todvora",
+              "followers_url": "https://api.github.com/users/todvora/followers",
+              "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+              "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+              "organizations_url": "https://api.github.com/users/todvora/orgs",
+              "repos_url": "https://api.github.com/users/todvora/repos",
+              "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/todvora/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/todvora/variety",
+            "description": "A schema analyzer for MongoDB",
+            "fork": true,
+            "url": "https://api.github.com/repos/todvora/variety",
+            "forks_url": "https://api.github.com/repos/todvora/variety/forks",
+            "keys_url": "https://api.github.com/repos/todvora/variety/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/todvora/variety/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/todvora/variety/teams",
+            "hooks_url": "https://api.github.com/repos/todvora/variety/hooks",
+            "issue_events_url": "https://api.github.com/repos/todvora/variety/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/todvora/variety/events",
+            "assignees_url": "https://api.github.com/repos/todvora/variety/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/todvora/variety/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/todvora/variety/tags",
+            "blobs_url": "https://api.github.com/repos/todvora/variety/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/todvora/variety/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/todvora/variety/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/todvora/variety/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/todvora/variety/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/todvora/variety/languages",
+            "stargazers_url": "https://api.github.com/repos/todvora/variety/stargazers",
+            "contributors_url": "https://api.github.com/repos/todvora/variety/contributors",
+            "subscribers_url": "https://api.github.com/repos/todvora/variety/subscribers",
+            "subscription_url": "https://api.github.com/repos/todvora/variety/subscription",
+            "commits_url": "https://api.github.com/repos/todvora/variety/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/todvora/variety/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/todvora/variety/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/todvora/variety/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/todvora/variety/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/todvora/variety/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/todvora/variety/merges",
+            "archive_url": "https://api.github.com/repos/todvora/variety/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/todvora/variety/downloads",
+            "issues_url": "https://api.github.com/repos/todvora/variety/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/todvora/variety/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/todvora/variety/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/todvora/variety/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/todvora/variety/labels{/name}",
+            "releases_url": "https://api.github.com/repos/todvora/variety/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/todvora/variety/deployments",
+            "created_at": "2016-02-11T14:31:48Z",
+            "updated_at": "2016-03-14T14:40:18Z",
+            "pushed_at": "2016-04-01T11:23:30Z",
+            "git_url": "git://github.com/todvora/variety.git",
+            "ssh_url": "git@github.com:todvora/variety.git",
+            "clone_url": "https://github.com/todvora/variety.git",
+            "svn_url": "https://github.com/todvora/variety",
+            "homepage": "",
+            "size": 219,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": false,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "variety:master",
+          "ref": "master",
+          "sha": "bf42b64219a736fb4338fbd450dbeef7e31c1ca0",
+          "user": {
+            "login": "variety",
+            "id": 2047615,
+            "avatar_url": "https://avatars.githubusercontent.com/u/2047615?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/variety",
+            "html_url": "https://github.com/variety",
+            "followers_url": "https://api.github.com/users/variety/followers",
+            "following_url": "https://api.github.com/users/variety/following{/other_user}",
+            "gists_url": "https://api.github.com/users/variety/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/variety/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/variety/subscriptions",
+            "organizations_url": "https://api.github.com/users/variety/orgs",
+            "repos_url": "https://api.github.com/users/variety/repos",
+            "events_url": "https://api.github.com/users/variety/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/variety/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 3769679,
+            "name": "variety",
+            "full_name": "variety/variety",
+            "owner": {
+              "login": "variety",
+              "id": 2047615,
+              "avatar_url": "https://avatars.githubusercontent.com/u/2047615?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/variety",
+              "html_url": "https://github.com/variety",
+              "followers_url": "https://api.github.com/users/variety/followers",
+              "following_url": "https://api.github.com/users/variety/following{/other_user}",
+              "gists_url": "https://api.github.com/users/variety/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/variety/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/variety/subscriptions",
+              "organizations_url": "https://api.github.com/users/variety/orgs",
+              "repos_url": "https://api.github.com/users/variety/repos",
+              "events_url": "https://api.github.com/users/variety/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/variety/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/variety/variety",
+            "description": "A schema analyzer for MongoDB",
+            "fork": false,
+            "url": "https://api.github.com/repos/variety/variety",
+            "forks_url": "https://api.github.com/repos/variety/variety/forks",
+            "keys_url": "https://api.github.com/repos/variety/variety/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/variety/variety/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/variety/variety/teams",
+            "hooks_url": "https://api.github.com/repos/variety/variety/hooks",
+            "issue_events_url": "https://api.github.com/repos/variety/variety/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/variety/variety/events",
+            "assignees_url": "https://api.github.com/repos/variety/variety/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/variety/variety/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/variety/variety/tags",
+            "blobs_url": "https://api.github.com/repos/variety/variety/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/variety/variety/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/variety/variety/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/variety/variety/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/variety/variety/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/variety/variety/languages",
+            "stargazers_url": "https://api.github.com/repos/variety/variety/stargazers",
+            "contributors_url": "https://api.github.com/repos/variety/variety/contributors",
+            "subscribers_url": "https://api.github.com/repos/variety/variety/subscribers",
+            "subscription_url": "https://api.github.com/repos/variety/variety/subscription",
+            "commits_url": "https://api.github.com/repos/variety/variety/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/variety/variety/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/variety/variety/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/variety/variety/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/variety/variety/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/variety/variety/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/variety/variety/merges",
+            "archive_url": "https://api.github.com/repos/variety/variety/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/variety/variety/downloads",
+            "issues_url": "https://api.github.com/repos/variety/variety/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/variety/variety/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/variety/variety/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/variety/variety/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/variety/variety/labels{/name}",
+            "releases_url": "https://api.github.com/repos/variety/variety/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/variety/variety/deployments",
+            "created_at": "2012-03-19T23:03:02Z",
+            "updated_at": "2016-04-01T10:19:02Z",
+            "pushed_at": "2016-04-01T12:10:19Z",
+            "git_url": "git://github.com/variety/variety.git",
+            "ssh_url": "git@github.com:variety/variety.git",
+            "clone_url": "https://github.com/variety/variety.git",
+            "svn_url": "https://github.com/variety/variety",
+            "homepage": "",
+            "size": 310,
+            "stargazers_count": 680,
+            "watchers_count": 680,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 107,
+            "mirror_url": null,
+            "open_issues_count": 12,
+            "forks": 107,
+            "open_issues": 12,
+            "watchers": 680,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/variety/variety/pulls/114"
+          },
+          "html": {
+            "href": "https://github.com/variety/variety/pull/114"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/variety/variety/issues/114"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/variety/variety/issues/114/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/variety/variety/pulls/114/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/variety/variety/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/variety/variety/pulls/114/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/variety/variety/statuses/6a908273bf216a29eecb588c6cd1f2eedc939421"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 227,
+        "deletions": 259,
+        "changed_files": 19
+      }
+    },
+    "public": true,
+    "created_at": "2016-04-01T12:10:19Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3834759728",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 51520092,
+      "name": "todvora/variety",
+      "url": "https://api.github.com/repos/todvora/variety"
+    },
+    "payload": {
+      "push_id": 1046971121,
+      "size": 9,
+      "distinct_size": 9,
+      "ref": "refs/heads/master",
+      "head": "6a908273bf216a29eecb588c6cd1f2eedc939421",
+      "before": "1f08dd5f3981932e9f7d86475e970165d3a91570",
+      "commits": [
+        {
+          "sha": "f4a0f5de42bb0744b12587dbcb7a0a31ad6a0cd7",
+          "author": {
+            "email": "Tim.Ludwinski@gmail.com",
+            "name": "TimLudwinski"
+          },
+          "message": "Added optional logging of new key types",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety/commits/f4a0f5de42bb0744b12587dbcb7a0a31ad6a0cd7"
+        },
+        {
+          "sha": "2b24446806f15a23868637adebe7f99242e8642a",
+          "author": {
+            "email": "Tim.Ludwinski@gmail.com",
+            "name": "TimLudwinski"
+          },
+          "message": "Added 'logKeysContinuously' option description",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety/commits/2b24446806f15a23868637adebe7f99242e8642a"
+        },
+        {
+          "sha": "b65c40bb0d521215a76239c71b41587c2fc4680f",
+          "author": {
+            "email": "Tim.Ludwinski@gmail.com",
+            "name": "TimLudwinski"
+          },
+          "message": "Fixed syntax error",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety/commits/b65c40bb0d521215a76239c71b41587c2fc4680f"
+        },
+        {
+          "sha": "15daf67d4bd5f1fda684265be962e5208f859c7f",
+          "author": {
+            "email": "JamesCropcho@users.noreply.github.com",
+            "name": "James Cropcho"
+          },
+          "message": "Merge pull request #111 from todvora/master\n\nTests rewritten to JavaScript, npm package definition, ESLint",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety/commits/15daf67d4bd5f1fda684265be962e5208f859c7f"
+        },
+        {
+          "sha": "9b0b8b3452cca1da0eb716a223957c620db5f23d",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "Merge branch 'master' into TimLudwinski-master\n\nConflicts:\n\tvariety.js",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety/commits/9b0b8b3452cca1da0eb716a223957c620db5f23d"
+        },
+        {
+          "sha": "7e87bd34b39de0eab1eae10762ece994507498c7",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "continuous logging test added",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety/commits/7e87bd34b39de0eab1eae10762ece994507498c7"
+        },
+        {
+          "sha": "034a3a5beb562549e719272b54bb680061bf9ca3",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "typos in readme fixed",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety/commits/034a3a5beb562549e719272b54bb680061bf9ca3"
+        },
+        {
+          "sha": "bf42b64219a736fb4338fbd450dbeef7e31c1ca0",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "continuous logging test does not require specific order of messages",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety/commits/bf42b64219a736fb4338fbd450dbeef7e31c1ca0"
+        },
+        {
+          "sha": "6a908273bf216a29eecb588c6cd1f2eedc939421",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "ES6 and ES7 features in tests (import, export, async & await)",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety/commits/6a908273bf216a29eecb588c6cd1f2eedc939421"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-04-01T11:23:31Z"
+  },
+  {
+    "id": "3831591206",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 32196251,
+      "name": "todvora/todvora.github.io",
+      "url": "https://api.github.com/repos/todvora/todvora.github.io"
+    },
+    "payload": {
+      "push_id": 1045851729,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "992de529c9d6d8e452ee3036f0ddb51d92d7bce1",
+      "before": "b561995dbef220e4db299be5b3f8ef17f71f8002",
+      "commits": [
+        {
+          "sha": "992de529c9d6d8e452ee3036f0ddb51d92d7bce1",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "Dear Amazon, let me fix that for you: Send to Kindle extension",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/todvora.github.io/commits/992de529c9d6d8e452ee3036f0ddb51d92d7bce1"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-03-31T18:24:45Z"
+  },
+  {
+    "id": "3831510981",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 32196251,
+      "name": "todvora/todvora.github.io",
+      "url": "https://api.github.com/repos/todvora/todvora.github.io"
+    },
+    "payload": {
+      "push_id": 1045825430,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "b561995dbef220e4db299be5b3f8ef17f71f8002",
+      "before": "a79870e3001fc354705cdf0857ea8d2a20117fa9",
+      "commits": [
+        {
+          "sha": "b561995dbef220e4db299be5b3f8ef17f71f8002",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "paging links prev/next in head",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/todvora.github.io/commits/b561995dbef220e4db299be5b3f8ef17f71f8002"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-03-31T18:08:02Z"
+  },
+  {
+    "id": "3828862845",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 4096863,
+      "name": "SQiShER/java-object-diff",
+      "url": "https://api.github.com/repos/SQiShER/java-object-diff"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-03-31T08:15:23Z"
+  },
+  {
+    "id": "3819434209",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 3769679,
+      "name": "variety/variety",
+      "url": "https://api.github.com/repos/variety/variety"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/variety/variety/issues/113",
+        "repository_url": "https://api.github.com/repos/variety/variety",
+        "labels_url": "https://api.github.com/repos/variety/variety/issues/113/labels{/name}",
+        "comments_url": "https://api.github.com/repos/variety/variety/issues/113/comments",
+        "events_url": "https://api.github.com/repos/variety/variety/issues/113/events",
+        "html_url": "https://github.com/variety/variety/issues/113",
+        "id": 143433394,
+        "number": 113,
+        "title": "Cannot use 'commands' readMode, degrading to 'legacy' mode",
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/variety/variety/labels/bug",
+            "name": "bug",
+            "color": "fc2929"
+          },
+          {
+            "url": "https://api.github.com/repos/variety/variety/labels/documentation",
+            "name": "documentation",
+            "color": "5319e7"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2016-03-25T06:08:25Z",
+        "updated_at": "2016-03-29T13:50:45Z",
+        "closed_at": null,
+        "body": "Hi everyone,\r\nDuring testing of Variety, I hit following warning:\r\n\r\n```\r\nCannot use 'commands' readMode, degrading to 'legacy' mode\r\n```\r\n\r\nIt appears only when newer shell (3.2) is used for analysis against older database (lower than 3.0). There have been some changes in communication protocol introduced and this warning is produced only when fallback method used. \r\n\r\nThe real problem for us is - **this warning cannot be muted** by ```--quiet``` option of mongo shell and thus **breaks JSON output**.  \r\n\r\nTo address this issue, I've created following pull request: https://github.com/mongodb/mongo/pull/1073. It has also its own Jira Issue: https://jira.mongodb.org/browse/SERVER-21745\r\n\r\nCould you please upvote the issue or write a comment, to get things in motion? \r\n\r\nThank you!\r\nTomas"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/variety/variety/issues/comments/202902179",
+        "html_url": "https://github.com/variety/variety/issues/113#issuecomment-202902179",
+        "issue_url": "https://api.github.com/repos/variety/variety/issues/113",
+        "id": 202902179,
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-03-29T13:50:45Z",
+        "updated_at": "2016-03-29T13:50:45Z",
+        "body": "Hi Arthur, exactly - even with ```--quiet```. Could you please [upvote the jira issue](https://jira.mongodb.org/browse/SERVER-21745) too?"
+      }
+    },
+    "public": true,
+    "created_at": "2016-03-29T13:50:45Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3817934918",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 7612484,
+      "name": "davglass/license-checker",
+      "url": "https://api.github.com/repos/davglass/license-checker"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-03-29T07:16:31Z"
+  },
+  {
+    "id": "3810536046",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 33762577,
+      "name": "variety/variety-cli",
+      "url": "https://api.github.com/repos/variety/variety-cli"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/variety/variety-cli/issues/7",
+        "repository_url": "https://api.github.com/repos/variety/variety-cli",
+        "labels_url": "https://api.github.com/repos/variety/variety-cli/issues/7/labels{/name}",
+        "comments_url": "https://api.github.com/repos/variety/variety-cli/issues/7/comments",
+        "events_url": "https://api.github.com/repos/variety/variety-cli/issues/7/events",
+        "html_url": "https://github.com/variety/variety-cli/pull/7",
+        "id": 143296140,
+        "number": 7,
+        "title": "test variety-cli against node 4 and 5 on travis-ci",
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2016-03-24T16:35:51Z",
+        "updated_at": "2016-03-26T05:36:22Z",
+        "closed_at": "2016-03-25T14:26:41Z",
+        "pull_request": {
+          "url": "https://api.github.com/repos/variety/variety-cli/pulls/7",
+          "html_url": "https://github.com/variety/variety-cli/pull/7",
+          "diff_url": "https://github.com/variety/variety-cli/pull/7.diff",
+          "patch_url": "https://github.com/variety/variety-cli/pull/7.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/variety/variety-cli/issues/comments/201707828",
+        "html_url": "https://github.com/variety/variety-cli/pull/7#issuecomment-201707828",
+        "issue_url": "https://api.github.com/repos/variety/variety-cli/issues/7",
+        "id": 201707828,
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-03-26T05:36:22Z",
+        "updated_at": "2016-03-26T05:36:22Z",
+        "body": "Thanks for the merge :)\nDne 25.3.2016 15:26 napsal uživatel \"James Cropcho\" <\nnotifications@github.com>:\n\n> Merged #7 <https://github.com/variety/variety-cli/pull/7>.\n>\n> —\n> You are receiving this because you authored the thread.\n> Reply to this email directly or view it on GitHub\n> <https://github.com/variety/variety-cli/pull/7#event-603063172>\n>\n"
+      }
+    },
+    "public": true,
+    "created_at": "2016-03-26T05:36:22Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3807196486",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 3769679,
+      "name": "variety/variety",
+      "url": "https://api.github.com/repos/variety/variety"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/variety/variety/issues/113",
+        "repository_url": "https://api.github.com/repos/variety/variety",
+        "labels_url": "https://api.github.com/repos/variety/variety/issues/113/labels{/name}",
+        "comments_url": "https://api.github.com/repos/variety/variety/issues/113/comments",
+        "events_url": "https://api.github.com/repos/variety/variety/issues/113/events",
+        "html_url": "https://github.com/variety/variety/issues/113",
+        "id": 143433394,
+        "number": 113,
+        "title": "Cannot use 'commands' readMode, degrading to 'legacy' mode",
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/variety/variety/labels/bug",
+            "name": "bug",
+            "color": "fc2929"
+          },
+          {
+            "url": "https://api.github.com/repos/variety/variety/labels/documentation",
+            "name": "documentation",
+            "color": "5319e7"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2016-03-25T06:08:25Z",
+        "updated_at": "2016-03-25T06:08:25Z",
+        "closed_at": null,
+        "body": "Hi everyone,\r\nDuring testing of Variety, I hit following warning:\r\n\r\n```\r\nCannot use 'commands' readMode, degrading to 'legacy' mode\r\n```\r\n\r\nIt appears only when newer shell (3.2) is used for analysis against older database (lower than 3.0). There have been some changes in communication protocol introduced and this warning is produced only when fallback method used. \r\n\r\nThe real problem for us is - **this warning cannot be muted** by ```--quiet``` option of mongo shell and thus **breaks JSON output**.  \r\n\r\nTo address this issue, I've created following pull request: https://github.com/mongodb/mongo/pull/1073. It has also its own Jira Issue: https://jira.mongodb.org/browse/SERVER-21745\r\n\r\nCould you please upvote the issue or write a comment, to get things in motion? \r\n\r\nThank you!\r\nTomas"
+      }
+    },
+    "public": true,
+    "created_at": "2016-03-25T06:08:25Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3804676984",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 33762577,
+      "name": "variety/variety-cli",
+      "url": "https://api.github.com/repos/variety/variety-cli"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 7,
+      "pull_request": {
+        "url": "https://api.github.com/repos/variety/variety-cli/pulls/7",
+        "id": 64061725,
+        "html_url": "https://github.com/variety/variety-cli/pull/7",
+        "diff_url": "https://github.com/variety/variety-cli/pull/7.diff",
+        "patch_url": "https://github.com/variety/variety-cli/pull/7.patch",
+        "issue_url": "https://api.github.com/repos/variety/variety-cli/issues/7",
+        "number": 7,
+        "state": "open",
+        "locked": false,
+        "title": "test variety-cli against node 4 and 5 on travis-ci",
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2016-03-24T16:35:51Z",
+        "updated_at": "2016-03-24T16:35:52Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/variety/variety-cli/pulls/7/commits",
+        "review_comments_url": "https://api.github.com/repos/variety/variety-cli/pulls/7/comments",
+        "review_comment_url": "https://api.github.com/repos/variety/variety-cli/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/variety/variety-cli/issues/7/comments",
+        "statuses_url": "https://api.github.com/repos/variety/variety-cli/statuses/8854d8519f35fd0755c783b9a1169b26f857b225",
+        "head": {
+          "label": "todvora:master",
+          "ref": "master",
+          "sha": "8854d8519f35fd0755c783b9a1169b26f857b225",
+          "user": {
+            "login": "todvora",
+            "id": 4102775,
+            "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/todvora",
+            "html_url": "https://github.com/todvora",
+            "followers_url": "https://api.github.com/users/todvora/followers",
+            "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+            "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+            "organizations_url": "https://api.github.com/users/todvora/orgs",
+            "repos_url": "https://api.github.com/users/todvora/repos",
+            "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/todvora/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 35679105,
+            "name": "variety-cli",
+            "full_name": "todvora/variety-cli",
+            "owner": {
+              "login": "todvora",
+              "id": 4102775,
+              "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/todvora",
+              "html_url": "https://github.com/todvora",
+              "followers_url": "https://api.github.com/users/todvora/followers",
+              "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+              "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+              "organizations_url": "https://api.github.com/users/todvora/orgs",
+              "repos_url": "https://api.github.com/users/todvora/repos",
+              "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/todvora/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/todvora/variety-cli",
+            "description": "Command line interface for Variety - Schema Analyzer for MongoDB",
+            "fork": true,
+            "url": "https://api.github.com/repos/todvora/variety-cli",
+            "forks_url": "https://api.github.com/repos/todvora/variety-cli/forks",
+            "keys_url": "https://api.github.com/repos/todvora/variety-cli/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/todvora/variety-cli/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/todvora/variety-cli/teams",
+            "hooks_url": "https://api.github.com/repos/todvora/variety-cli/hooks",
+            "issue_events_url": "https://api.github.com/repos/todvora/variety-cli/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/todvora/variety-cli/events",
+            "assignees_url": "https://api.github.com/repos/todvora/variety-cli/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/todvora/variety-cli/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/todvora/variety-cli/tags",
+            "blobs_url": "https://api.github.com/repos/todvora/variety-cli/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/todvora/variety-cli/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/todvora/variety-cli/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/todvora/variety-cli/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/todvora/variety-cli/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/todvora/variety-cli/languages",
+            "stargazers_url": "https://api.github.com/repos/todvora/variety-cli/stargazers",
+            "contributors_url": "https://api.github.com/repos/todvora/variety-cli/contributors",
+            "subscribers_url": "https://api.github.com/repos/todvora/variety-cli/subscribers",
+            "subscription_url": "https://api.github.com/repos/todvora/variety-cli/subscription",
+            "commits_url": "https://api.github.com/repos/todvora/variety-cli/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/todvora/variety-cli/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/todvora/variety-cli/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/todvora/variety-cli/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/todvora/variety-cli/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/todvora/variety-cli/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/todvora/variety-cli/merges",
+            "archive_url": "https://api.github.com/repos/todvora/variety-cli/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/todvora/variety-cli/downloads",
+            "issues_url": "https://api.github.com/repos/todvora/variety-cli/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/todvora/variety-cli/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/todvora/variety-cli/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/todvora/variety-cli/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/todvora/variety-cli/labels{/name}",
+            "releases_url": "https://api.github.com/repos/todvora/variety-cli/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/todvora/variety-cli/deployments",
+            "created_at": "2015-05-15T14:40:43Z",
+            "updated_at": "2016-03-21T14:36:51Z",
+            "pushed_at": "2016-03-24T16:34:06Z",
+            "git_url": "git://github.com/todvora/variety-cli.git",
+            "ssh_url": "git@github.com:todvora/variety-cli.git",
+            "clone_url": "https://github.com/todvora/variety-cli.git",
+            "svn_url": "https://github.com/todvora/variety-cli",
+            "homepage": null,
+            "size": 36,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": false,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "variety:master",
+          "ref": "master",
+          "sha": "e4d3b0fdeb581d79664dffcf605fbfd028c71f02",
+          "user": {
+            "login": "variety",
+            "id": 2047615,
+            "avatar_url": "https://avatars.githubusercontent.com/u/2047615?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/variety",
+            "html_url": "https://github.com/variety",
+            "followers_url": "https://api.github.com/users/variety/followers",
+            "following_url": "https://api.github.com/users/variety/following{/other_user}",
+            "gists_url": "https://api.github.com/users/variety/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/variety/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/variety/subscriptions",
+            "organizations_url": "https://api.github.com/users/variety/orgs",
+            "repos_url": "https://api.github.com/users/variety/repos",
+            "events_url": "https://api.github.com/users/variety/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/variety/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 33762577,
+            "name": "variety-cli",
+            "full_name": "variety/variety-cli",
+            "owner": {
+              "login": "variety",
+              "id": 2047615,
+              "avatar_url": "https://avatars.githubusercontent.com/u/2047615?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/variety",
+              "html_url": "https://github.com/variety",
+              "followers_url": "https://api.github.com/users/variety/followers",
+              "following_url": "https://api.github.com/users/variety/following{/other_user}",
+              "gists_url": "https://api.github.com/users/variety/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/variety/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/variety/subscriptions",
+              "organizations_url": "https://api.github.com/users/variety/orgs",
+              "repos_url": "https://api.github.com/users/variety/repos",
+              "events_url": "https://api.github.com/users/variety/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/variety/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/variety/variety-cli",
+            "description": "Command line interface for Variety - Schema Analyzer for MongoDB",
+            "fork": false,
+            "url": "https://api.github.com/repos/variety/variety-cli",
+            "forks_url": "https://api.github.com/repos/variety/variety-cli/forks",
+            "keys_url": "https://api.github.com/repos/variety/variety-cli/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/variety/variety-cli/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/variety/variety-cli/teams",
+            "hooks_url": "https://api.github.com/repos/variety/variety-cli/hooks",
+            "issue_events_url": "https://api.github.com/repos/variety/variety-cli/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/variety/variety-cli/events",
+            "assignees_url": "https://api.github.com/repos/variety/variety-cli/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/variety/variety-cli/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/variety/variety-cli/tags",
+            "blobs_url": "https://api.github.com/repos/variety/variety-cli/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/variety/variety-cli/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/variety/variety-cli/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/variety/variety-cli/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/variety/variety-cli/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/variety/variety-cli/languages",
+            "stargazers_url": "https://api.github.com/repos/variety/variety-cli/stargazers",
+            "contributors_url": "https://api.github.com/repos/variety/variety-cli/contributors",
+            "subscribers_url": "https://api.github.com/repos/variety/variety-cli/subscribers",
+            "subscription_url": "https://api.github.com/repos/variety/variety-cli/subscription",
+            "commits_url": "https://api.github.com/repos/variety/variety-cli/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/variety/variety-cli/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/variety/variety-cli/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/variety/variety-cli/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/variety/variety-cli/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/variety/variety-cli/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/variety/variety-cli/merges",
+            "archive_url": "https://api.github.com/repos/variety/variety-cli/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/variety/variety-cli/downloads",
+            "issues_url": "https://api.github.com/repos/variety/variety-cli/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/variety/variety-cli/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/variety/variety-cli/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/variety/variety-cli/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/variety/variety-cli/labels{/name}",
+            "releases_url": "https://api.github.com/repos/variety/variety-cli/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/variety/variety-cli/deployments",
+            "created_at": "2015-04-11T04:28:48Z",
+            "updated_at": "2016-03-19T17:33:21Z",
+            "pushed_at": "2016-03-24T16:11:39Z",
+            "git_url": "git://github.com/variety/variety-cli.git",
+            "ssh_url": "git@github.com:variety/variety-cli.git",
+            "clone_url": "https://github.com/variety/variety-cli.git",
+            "svn_url": "https://github.com/variety/variety-cli",
+            "homepage": null,
+            "size": 36,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 4,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 4,
+            "open_issues": 1,
+            "watchers": 12,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/variety/variety-cli/pulls/7"
+          },
+          "html": {
+            "href": "https://github.com/variety/variety-cli/pull/7"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/variety/variety-cli/issues/7"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/variety/variety-cli/issues/7/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/variety/variety-cli/pulls/7/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/variety/variety-cli/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/variety/variety-cli/pulls/7/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/variety/variety-cli/statuses/8854d8519f35fd0755c783b9a1169b26f857b225"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 4,
+        "deletions": 1,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2016-03-24T16:35:52Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3804667932",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 35679105,
+      "name": "todvora/variety-cli",
+      "url": "https://api.github.com/repos/todvora/variety-cli"
+    },
+    "payload": {
+      "push_id": 1035943542,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "8854d8519f35fd0755c783b9a1169b26f857b225",
+      "before": "10b911e6a11ec579565023c6ae59c416c11de17d",
+      "commits": [
+        {
+          "sha": "e4d3b0fdeb581d79664dffcf605fbfd028c71f02",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "0.4.1",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety-cli/commits/e4d3b0fdeb581d79664dffcf605fbfd028c71f02"
+        },
+        {
+          "sha": "8854d8519f35fd0755c783b9a1169b26f857b225",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "test variety-cli against node 4 and 5 on travis-ci",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety-cli/commits/8854d8519f35fd0755c783b9a1169b26f857b225"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-03-24T16:34:06Z"
+  },
+  {
+    "id": "3804549383",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 33762577,
+      "name": "variety/variety-cli",
+      "url": "https://api.github.com/repos/variety/variety-cli"
+    },
+    "payload": {
+      "ref": "v0.4.1",
+      "ref_type": "tag",
+      "master_branch": "master",
+      "description": "Command line interface for Variety - Schema Analyzer for MongoDB",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2016-03-24T16:11:39Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3804548867",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 33762577,
+      "name": "variety/variety-cli",
+      "url": "https://api.github.com/repos/variety/variety-cli"
+    },
+    "payload": {
+      "push_id": 1035904033,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "e4d3b0fdeb581d79664dffcf605fbfd028c71f02",
+      "before": "635536d838e721097baae37e5e36b9f16dc8ad38",
+      "commits": [
+        {
+          "sha": "e4d3b0fdeb581d79664dffcf605fbfd028c71f02",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "0.4.1",
+          "distinct": true,
+          "url": "https://api.github.com/repos/variety/variety-cli/commits/e4d3b0fdeb581d79664dffcf605fbfd028c71f02"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-03-24T16:11:33Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3804536927",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 35679105,
+      "name": "todvora/variety-cli",
+      "url": "https://api.github.com/repos/todvora/variety-cli"
+    },
+    "payload": {
+      "ref": "v0.4.1",
+      "ref_type": "tag",
+      "master_branch": "master",
+      "description": "Command line interface for Variety - Schema Analyzer for MongoDB",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2016-03-24T16:09:12Z"
+  },
+  {
+    "id": "3804536508",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 35679105,
+      "name": "todvora/variety-cli",
+      "url": "https://api.github.com/repos/todvora/variety-cli"
+    },
+    "payload": {
+      "push_id": 1035899793,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "10b911e6a11ec579565023c6ae59c416c11de17d",
+      "before": "1f5f07d55c18b31dd68242a5f696a22ef06b17f6",
+      "commits": [
+        {
+          "sha": "635536d838e721097baae37e5e36b9f16dc8ad38",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "Merge pull request #6 from todvora/master\n\nVariety.js provided as a NPM dependency",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety-cli/commits/635536d838e721097baae37e5e36b9f16dc8ad38"
+        },
+        {
+          "sha": "10b911e6a11ec579565023c6ae59c416c11de17d",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "0.4.1",
+          "distinct": true,
+          "url": "https://api.github.com/repos/todvora/variety-cli/commits/10b911e6a11ec579565023c6ae59c416c11de17d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-03-24T16:09:08Z"
+  },
+  {
+    "id": "3804436774",
+    "type": "PushEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 33762577,
+      "name": "variety/variety-cli",
+      "url": "https://api.github.com/repos/variety/variety-cli"
+    },
+    "payload": {
+      "push_id": 1035864991,
+      "size": 3,
+      "distinct_size": 3,
+      "ref": "refs/heads/master",
+      "head": "635536d838e721097baae37e5e36b9f16dc8ad38",
+      "before": "005e5fb9f974d3e659aba6181551371f50670b46",
+      "commits": [
+        {
+          "sha": "5ba01d4b670453366416186591a820767df17360",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "Variety.js as a NPM dependency",
+          "distinct": true,
+          "url": "https://api.github.com/repos/variety/variety-cli/commits/5ba01d4b670453366416186591a820767df17360"
+        },
+        {
+          "sha": "1f5f07d55c18b31dd68242a5f696a22ef06b17f6",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "eslint + code cleanup",
+          "distinct": true,
+          "url": "https://api.github.com/repos/variety/variety-cli/commits/1f5f07d55c18b31dd68242a5f696a22ef06b17f6"
+        },
+        {
+          "sha": "635536d838e721097baae37e5e36b9f16dc8ad38",
+          "author": {
+            "email": "todvora@gmail.com",
+            "name": "Tomas Dvorak"
+          },
+          "message": "Merge pull request #6 from todvora/master\n\nVariety.js provided as a NPM dependency",
+          "distinct": true,
+          "url": "https://api.github.com/repos/variety/variety-cli/commits/635536d838e721097baae37e5e36b9f16dc8ad38"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-03-24T15:50:15Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  },
+  {
+    "id": "3804436723",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 4102775,
+      "login": "todvora",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/todvora",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4102775?"
+    },
+    "repo": {
+      "id": 33762577,
+      "name": "variety/variety-cli",
+      "url": "https://api.github.com/repos/variety/variety-cli"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 6,
+      "pull_request": {
+        "url": "https://api.github.com/repos/variety/variety-cli/pulls/6",
+        "id": 63576029,
+        "html_url": "https://github.com/variety/variety-cli/pull/6",
+        "diff_url": "https://github.com/variety/variety-cli/pull/6.diff",
+        "patch_url": "https://github.com/variety/variety-cli/pull/6.patch",
+        "issue_url": "https://api.github.com/repos/variety/variety-cli/issues/6",
+        "number": 6,
+        "state": "closed",
+        "locked": false,
+        "title": "Variety.js provided as a NPM dependency",
+        "user": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "Joined with code cleanup + eslint (to be able to identify unused code and dependencies)",
+        "created_at": "2016-03-21T14:53:03Z",
+        "updated_at": "2016-03-24T15:50:15Z",
+        "closed_at": "2016-03-24T15:50:15Z",
+        "merged_at": "2016-03-24T15:50:15Z",
+        "merge_commit_sha": "635536d838e721097baae37e5e36b9f16dc8ad38",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/variety/variety-cli/pulls/6/commits",
+        "review_comments_url": "https://api.github.com/repos/variety/variety-cli/pulls/6/comments",
+        "review_comment_url": "https://api.github.com/repos/variety/variety-cli/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/variety/variety-cli/issues/6/comments",
+        "statuses_url": "https://api.github.com/repos/variety/variety-cli/statuses/1f5f07d55c18b31dd68242a5f696a22ef06b17f6",
+        "head": {
+          "label": "todvora:master",
+          "ref": "master",
+          "sha": "1f5f07d55c18b31dd68242a5f696a22ef06b17f6",
+          "user": {
+            "login": "todvora",
+            "id": 4102775,
+            "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/todvora",
+            "html_url": "https://github.com/todvora",
+            "followers_url": "https://api.github.com/users/todvora/followers",
+            "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+            "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+            "organizations_url": "https://api.github.com/users/todvora/orgs",
+            "repos_url": "https://api.github.com/users/todvora/repos",
+            "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/todvora/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 35679105,
+            "name": "variety-cli",
+            "full_name": "todvora/variety-cli",
+            "owner": {
+              "login": "todvora",
+              "id": 4102775,
+              "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/todvora",
+              "html_url": "https://github.com/todvora",
+              "followers_url": "https://api.github.com/users/todvora/followers",
+              "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+              "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+              "organizations_url": "https://api.github.com/users/todvora/orgs",
+              "repos_url": "https://api.github.com/users/todvora/repos",
+              "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/todvora/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/todvora/variety-cli",
+            "description": "Command line interface for Variety - Schema Analyzer for MongoDB",
+            "fork": true,
+            "url": "https://api.github.com/repos/todvora/variety-cli",
+            "forks_url": "https://api.github.com/repos/todvora/variety-cli/forks",
+            "keys_url": "https://api.github.com/repos/todvora/variety-cli/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/todvora/variety-cli/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/todvora/variety-cli/teams",
+            "hooks_url": "https://api.github.com/repos/todvora/variety-cli/hooks",
+            "issue_events_url": "https://api.github.com/repos/todvora/variety-cli/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/todvora/variety-cli/events",
+            "assignees_url": "https://api.github.com/repos/todvora/variety-cli/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/todvora/variety-cli/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/todvora/variety-cli/tags",
+            "blobs_url": "https://api.github.com/repos/todvora/variety-cli/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/todvora/variety-cli/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/todvora/variety-cli/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/todvora/variety-cli/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/todvora/variety-cli/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/todvora/variety-cli/languages",
+            "stargazers_url": "https://api.github.com/repos/todvora/variety-cli/stargazers",
+            "contributors_url": "https://api.github.com/repos/todvora/variety-cli/contributors",
+            "subscribers_url": "https://api.github.com/repos/todvora/variety-cli/subscribers",
+            "subscription_url": "https://api.github.com/repos/todvora/variety-cli/subscription",
+            "commits_url": "https://api.github.com/repos/todvora/variety-cli/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/todvora/variety-cli/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/todvora/variety-cli/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/todvora/variety-cli/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/todvora/variety-cli/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/todvora/variety-cli/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/todvora/variety-cli/merges",
+            "archive_url": "https://api.github.com/repos/todvora/variety-cli/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/todvora/variety-cli/downloads",
+            "issues_url": "https://api.github.com/repos/todvora/variety-cli/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/todvora/variety-cli/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/todvora/variety-cli/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/todvora/variety-cli/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/todvora/variety-cli/labels{/name}",
+            "releases_url": "https://api.github.com/repos/todvora/variety-cli/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/todvora/variety-cli/deployments",
+            "created_at": "2015-05-15T14:40:43Z",
+            "updated_at": "2016-03-21T14:36:51Z",
+            "pushed_at": "2016-03-21T14:50:44Z",
+            "git_url": "git://github.com/todvora/variety-cli.git",
+            "ssh_url": "git@github.com:todvora/variety-cli.git",
+            "clone_url": "https://github.com/todvora/variety-cli.git",
+            "svn_url": "https://github.com/todvora/variety-cli",
+            "homepage": null,
+            "size": 34,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": false,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "variety:master",
+          "ref": "master",
+          "sha": "005e5fb9f974d3e659aba6181551371f50670b46",
+          "user": {
+            "login": "variety",
+            "id": 2047615,
+            "avatar_url": "https://avatars.githubusercontent.com/u/2047615?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/variety",
+            "html_url": "https://github.com/variety",
+            "followers_url": "https://api.github.com/users/variety/followers",
+            "following_url": "https://api.github.com/users/variety/following{/other_user}",
+            "gists_url": "https://api.github.com/users/variety/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/variety/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/variety/subscriptions",
+            "organizations_url": "https://api.github.com/users/variety/orgs",
+            "repos_url": "https://api.github.com/users/variety/repos",
+            "events_url": "https://api.github.com/users/variety/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/variety/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 33762577,
+            "name": "variety-cli",
+            "full_name": "variety/variety-cli",
+            "owner": {
+              "login": "variety",
+              "id": 2047615,
+              "avatar_url": "https://avatars.githubusercontent.com/u/2047615?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/variety",
+              "html_url": "https://github.com/variety",
+              "followers_url": "https://api.github.com/users/variety/followers",
+              "following_url": "https://api.github.com/users/variety/following{/other_user}",
+              "gists_url": "https://api.github.com/users/variety/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/variety/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/variety/subscriptions",
+              "organizations_url": "https://api.github.com/users/variety/orgs",
+              "repos_url": "https://api.github.com/users/variety/repos",
+              "events_url": "https://api.github.com/users/variety/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/variety/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/variety/variety-cli",
+            "description": "Command line interface for Variety - Schema Analyzer for MongoDB",
+            "fork": false,
+            "url": "https://api.github.com/repos/variety/variety-cli",
+            "forks_url": "https://api.github.com/repos/variety/variety-cli/forks",
+            "keys_url": "https://api.github.com/repos/variety/variety-cli/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/variety/variety-cli/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/variety/variety-cli/teams",
+            "hooks_url": "https://api.github.com/repos/variety/variety-cli/hooks",
+            "issue_events_url": "https://api.github.com/repos/variety/variety-cli/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/variety/variety-cli/events",
+            "assignees_url": "https://api.github.com/repos/variety/variety-cli/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/variety/variety-cli/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/variety/variety-cli/tags",
+            "blobs_url": "https://api.github.com/repos/variety/variety-cli/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/variety/variety-cli/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/variety/variety-cli/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/variety/variety-cli/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/variety/variety-cli/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/variety/variety-cli/languages",
+            "stargazers_url": "https://api.github.com/repos/variety/variety-cli/stargazers",
+            "contributors_url": "https://api.github.com/repos/variety/variety-cli/contributors",
+            "subscribers_url": "https://api.github.com/repos/variety/variety-cli/subscribers",
+            "subscription_url": "https://api.github.com/repos/variety/variety-cli/subscription",
+            "commits_url": "https://api.github.com/repos/variety/variety-cli/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/variety/variety-cli/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/variety/variety-cli/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/variety/variety-cli/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/variety/variety-cli/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/variety/variety-cli/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/variety/variety-cli/merges",
+            "archive_url": "https://api.github.com/repos/variety/variety-cli/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/variety/variety-cli/downloads",
+            "issues_url": "https://api.github.com/repos/variety/variety-cli/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/variety/variety-cli/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/variety/variety-cli/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/variety/variety-cli/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/variety/variety-cli/labels{/name}",
+            "releases_url": "https://api.github.com/repos/variety/variety-cli/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/variety/variety-cli/deployments",
+            "created_at": "2015-04-11T04:28:48Z",
+            "updated_at": "2016-03-19T17:33:21Z",
+            "pushed_at": "2016-03-24T15:50:15Z",
+            "git_url": "git://github.com/variety/variety-cli.git",
+            "ssh_url": "git@github.com:variety/variety-cli.git",
+            "clone_url": "https://github.com/variety/variety-cli.git",
+            "svn_url": "https://github.com/variety/variety-cli",
+            "homepage": null,
+            "size": 32,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 4,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 4,
+            "open_issues": 0,
+            "watchers": 12,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/variety/variety-cli/pulls/6"
+          },
+          "html": {
+            "href": "https://github.com/variety/variety-cli/pull/6"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/variety/variety-cli/issues/6"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/variety/variety-cli/issues/6/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/variety/variety-cli/pulls/6/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/variety/variety-cli/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/variety/variety-cli/pulls/6/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/variety/variety-cli/statuses/1f5f07d55c18b31dd68242a5f696a22ef06b17f6"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "todvora",
+          "id": 4102775,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4102775?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/todvora",
+          "html_url": "https://github.com/todvora",
+          "followers_url": "https://api.github.com/users/todvora/followers",
+          "following_url": "https://api.github.com/users/todvora/following{/other_user}",
+          "gists_url": "https://api.github.com/users/todvora/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/todvora/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/todvora/subscriptions",
+          "organizations_url": "https://api.github.com/users/todvora/orgs",
+          "repos_url": "https://api.github.com/users/todvora/repos",
+          "events_url": "https://api.github.com/users/todvora/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/todvora/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 1,
+        "review_comments": 0,
+        "commits": 2,
+        "additions": 109,
+        "deletions": 174,
+        "changed_files": 10
+      }
+    },
+    "public": true,
+    "created_at": "2016-03-24T15:50:15Z",
+    "org": {
+      "id": 2047615,
+      "login": "variety",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/variety",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047615?"
+    }
+  }
+]

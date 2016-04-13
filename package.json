@@ -4,9 +4,11 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "lint": "node_modules/.bin/eslint ./src --fix",
+    "lint": "node_modules/.bin/eslint ./src ./test",
+    "lint:fix": "node_modules/.bin/eslint ./src --fix",
     "pretest": "node_modules/.bin/eslint ./src",
-    "test": "echo \"Waring: no test specified\"",
+    "test": "node_modules/.bin/mocha --compilers js:babel-core/register --require babel-polyfill  --recursive --reporter spec --timeout 15000 test",
+    "test:watch": "node_modules/.bin/mocha --compilers js:babel-core/register --require babel-polyfill  --watch --recursive --reporter spec --timeout 15000 test",
     "watch": "node_modules/.bin/watchify ./src/index.js -o build/gh-events-widget.js -t browserify-css -t [ babelify --presets [ es2015 ] ]",
     "serve": "node server.js &",
     "dev": "npm run serve & npm run watch",
@@ -28,16 +30,28 @@
     "autoInject": false,
     "minify": true
   },
+  "browser": {
+    "./src/lib/request/request.js": "src/lib/request/request-browser.js"
+  },
+  "dependencies": {
+    "es6-promise": "^3.1.2",
+    "jsonp-es6": "^1.0.0",
+    "remove-markdown": "^0.1.0",
+    "request-promise": "^2.0.1"
+  },
   "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-eslint": "^6.0.2",
+    "babel-polyfill": "^6.7.4",
     "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.5.0",
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
     "browserify-css": "^0.9.0",
-    "es6-promise": "^3.1.2",
     "eslint": "^2.3.0",
     "express": "^4.13.4",
-    "jsonp-es6": "^1.0.0",
-    "ncp": "^2.0.0",
+    "mocha": "^2.4.5",
+    "nock": "^8.0.0",
     "uglifyify": "^3.0.1",
     "watchify": "^3.7.0"
   }

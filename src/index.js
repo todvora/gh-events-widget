@@ -23,9 +23,16 @@ const readConfig = (element) => {
   };
 };
 
+const reqFunction = (url) => {
+  return request(url)
+    .then(response => {
+      return {data:response.data, headers: response.meta};
+    });
+};
+
 const initWidget = (element) => {
   const config = readConfig(element);
-  events.load(config, request)
+  events.load(config, reqFunction)
     .then((data) => render(config, data, element))
     .catch((err) => console.error(err));
 };
@@ -38,6 +45,7 @@ var initWidgets = function() {
 
 // export init function to be callable later, if needed
 window.initWidgets = initWidgets;
+window.ghEvents = (config) => events.load(config, request);
 
 document.onreadystatechange = () => {
   if (document.readyState == 'complete') {

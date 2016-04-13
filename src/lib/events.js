@@ -1,4 +1,6 @@
 const handlers = require('./handlers/registry');
+const removeMd = require('remove-markdown');
+const request = require('./request/request');
 
 const safeEventText = (handler, event) => {
   try {
@@ -13,6 +15,7 @@ const mapEvent = (event) => {
   return {
     text: safeEventText(handler, event),
     url: handler.url(event),
+    body: handler.body ? removeMd(handler.body(event)) : null,
     date: event.created_at,
     type: event.type,
     actor: {
@@ -23,9 +26,10 @@ const mapEvent = (event) => {
   };
 };
 
-const load = (config, requestFunction) => {
-  return requestFunction(`https://api.github.com/users/${config.user}/events/public`)
-    .then((data) => data.data ? data.data : data)
+const load = (config) => {
+  return request(`https://api.github.com/users/${config.user}/events/public`)
+    // .then(res => {console.log(res.navigation); return res;})
+    .then((response) => response.data)
     .then((data) => {
       if(config.events) {
         return data.filter(event => config.events.indexOf(event.type) > -1);
