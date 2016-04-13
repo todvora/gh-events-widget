@@ -11,8 +11,9 @@ const safeEventText = (handler, event) => {
 };
 
 const limitEventsCount =(data, config) => {
-  if(data && (data.length > 0) && Number.isInteger(config.count)) {
-    return data.slice(0, Math.min(config.count, data.length));
+  const limit = parseInt(config.count);
+  if(data && (data.length > 0) && !isNaN(limit)) {
+    return data.slice(0, Math.min(limit, data.length));
   } else {
     return data;
   }
