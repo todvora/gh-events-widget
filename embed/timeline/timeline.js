@@ -63,7 +63,8 @@ var buildItem = function(event, index) {
 document.addEventListener('DOMContentLoaded',function() {
 
   var config = {
-    count:30
+    count:30,
+    paginate: true
   }
 
   var pairs = window.location.search.slice(1).split('&');
@@ -76,9 +77,20 @@ document.addEventListener('DOMContentLoaded',function() {
   heading.appendChild(document.createTextNode('@' + config.user));
   heading.setAttribute('href', heading.getAttribute('href') + escape(config.user));
 
-  window.ghEvents(config).then(function(events){
-    // console.log(events);
-    var timeline = document.querySelector('ul.timeline');
-    events.map(buildItem).forEach(function(fragment){timeline.appendChild(fragment);});
-  })
+  window.ghEvents(config)
+    .then(function(events){
+      var timeline = document.querySelector('ul.timeline');
+      events.map(buildItem).forEach(
+        function(fragment){
+          timeline.appendChild(fragment);
+        });
+    })
+    .catch(function(err) {
+      var timeline = document.querySelector('ul.timeline');
+      var alert = document.createElement('div');
+      alert.appendChild(document.createTextNode(err.message));
+      alert.className += 'alert alert-danger';
+      timeline.parentNode.appendChild(alert);
+      timeline.parentNode.removeChild(timeline);
+    });
 });

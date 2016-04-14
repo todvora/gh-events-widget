@@ -1,14 +1,15 @@
-const rp = require('request-promise');
-const linkParser = require('../utils/parse-link-header');
+import rp from 'request-promise';
+import { fromHeader } from '../utils/parse-link-header';
 
-module.exports = (url) => {
+module.exports = (url, params) => {
   return rp({
-    uri:url,
+    uri: url,
+    qs: params,
     transform: (body, response) => {
       return {
         data: JSON.parse(body),
         headers: response.headers,
-        navigation: linkParser.fromHeader(response.headers.link)
+        navigation: fromHeader(response.headers.link)
       };
     }
   });

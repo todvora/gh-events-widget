@@ -1,5 +1,5 @@
-function getCommitsText(payload) {
-  if(payload.size == 1) {
+function getCommitsText (payload) {
+  if (payload.size === 1) {
     return `«${payload.commits[0].message}»`;
   } else {
     return `${payload.size} commits`;
@@ -7,6 +7,6 @@ function getCommitsText(payload) {
 }
 
 module.exports = {
-  text: (e) =>  `pushed ${getCommitsText(e.payload)} to ${e.repo.name}`,
+  text: (e) => `pushed ${getCommitsText(e.payload)} to ${e.repo.name}`,
   url: (e) => `https://github.com/${e.repo.name}`
 };

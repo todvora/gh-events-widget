@@ -12,7 +12,7 @@
     "watch": "node_modules/.bin/watchify ./src/index.js -o build/gh-events-widget.js -t browserify-css -t [ babelify --presets [ es2015 ] ]",
     "serve": "node server.js &",
     "dev": "npm run serve & npm run watch",
-    "compile": "node_modules/.bin/browserify ./src/index.js -o build/gh-events-widget.js -t browserify-css -t [ babelify --presets [ es2015] ] -g uglifyify",
+    "compile": "node_modules/.bin/browserify ./src/index.js -o build/gh-events-widget.js -t browserify-css -t [ babelify --presets [ es2015 ] ] -g uglifyify",
     "distribute": "npm run compile && bin/deploy-ghpages.sh",
     "version:patch": "npm run test && npm version patch && git push --follow-tags"
   },
@@ -49,6 +49,9 @@
     "browserify": "^13.0.0",
     "browserify-css": "^0.9.0",
     "eslint": "^2.3.0",
+    "eslint-config-standard": "^5.1.0",
+    "eslint-plugin-promise": "^1.1.0",
+    "eslint-plugin-standard": "^1.3.2",
     "express": "^4.13.4",
     "mocha": "^2.4.5",
     "nock": "^8.0.0",

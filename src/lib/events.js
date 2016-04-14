@@ -1,21 +1,12 @@
-const handlers = require('./handlers/registry');
-const removeMd = require('remove-markdown');
-const request = require('./request/request');
+import handlers from './handlers/registry';
+import removeMd from 'remove-markdown';
+import request from './request/request';
 
 const safeEventText = (handler, event) => {
   try {
     return handler.text(event);
-  } catch(err) {
+  } catch (err) {
     return handlers.AnyEvent.text(event);
-  }
-};
-
-const limitEventsCount =(data, config) => {
-  const limit = parseInt(config.count);
-  if(data && (data.length > 0) && !isNaN(limit)) {
-    return data.slice(0, Math.min(limit, data.length));
-  } else {
-    return data;
   }
 };
 
@@ -35,18 +26,42 @@ const mapEvent = (event) => {
   };
 };
 
-const load = (config) => {
-  return request(`https://api.github.com/users/${config.user}/events/public`)
-    .then((response) => response.data)
-    .then((data) => {
-      if(config.events) {
-        return data.filter(event => config.events.indexOf(event.type) > -1);
+const getLimitCount = (config) => {
+  const limit = parseInt(config.count);
+  if (isNaN(limit)) {
+    return Number.MAX_VALUE;
+  } else {
+    return limit;
+  }
+};
+
+const filterEvents = (config) => {
+  return (event) => {
+    if (Array.isArray(config.events) && config.events.length > 0) {
+      return config.events.indexOf(event.type) > -1;
+    } else {
+      return true;
+    }
+  };
+};
+
+const consumeAll = (acc, pageNr, config) => {
+  return request(`https://api.github.com/users/${config.user}/events/public`, {page: pageNr})
+    .then(response => {
+      const newData = response.data
+        .filter(filterEvents(config))
+        .map(mapEvent);
+      const all = acc.concat(newData);
+      if (all.length < getLimitCount(config) && response.navigation.next && config.paginate) {
+        return consumeAll(all, response.navigation.next.page, config);
       } else {
-        return data;
+        return Promise.resolve(all.slice(0, getLimitCount(config)));
       }
-    })
-    .then((data) => limitEventsCount(data, config))
-    .then((data) => data.map(mapEvent));
+    });
+};
+
+const load = (config) => {
+  return consumeAll([], 1, config);
 };
 
 module.exports = {

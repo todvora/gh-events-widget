@@ -1,3 +1,4 @@
+// require('babel-polyfill');
 require('es6-promise').polyfill();
 
 const template = require('./template');
@@ -13,10 +14,13 @@ const render = (err, config, data, element) => {
 };
 
 const readConfig = (element) => {
+  const eventsText = element.getAttribute('data-events') || '';
+  const events = eventsText.split(',').map(event => event.trim());
+
   return {
     user: element.getAttribute('data-user'),
     count: element.getAttribute('data-count') || 5,
-    events: element.getAttribute('data-events'),
+    events: events,
     skin: element.getAttribute('data-skin'),
     style: element.getAttribute('data-style') || '',
     'display-authors': element.getAttribute('data-display-authors') || false
@@ -30,7 +34,7 @@ const initWidget = (element) => {
     .catch((err) => render(err, config, [], element));
 };
 
-var initWidgets = function() {
+var initWidgets = () => {
   var links = document.getElementsByClassName('gh-events');
   var arr = Array.prototype.slice.call(links);
   arr.forEach(initWidget);
@@ -41,7 +45,7 @@ window.initWidgets = initWidgets;
 window.ghEvents = (config) => events.load(config, request);
 
 document.onreadystatechange = () => {
-  if (document.readyState == 'complete') {
+  if (document.readyState === 'complete') {
     initWidgets();
   }
 };

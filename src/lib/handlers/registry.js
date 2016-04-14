@@ -3,7 +3,7 @@ module.exports = {
   PushEvent: require('./PushEvent'),
   CreateEvent: require('./CreateEvent'),
   IssueCommentEvent: require('./IssueCommentEvent'),
-  PullRequestEvent: require('./PullRequestEvent') ,
+  PullRequestEvent: require('./PullRequestEvent'),
   WatchEvent: require('./WatchEvent'),
   IssuesEvent: require('./IssuesEvent'),
   DeleteEvent: require('./DeleteEvent'),
@@ -12,5 +12,5 @@ module.exports = {
   CommitCommentEvent: require('./CommitCommentEvent'),
   ForkEvent: require('./ForkEvent'),
   PullRequestReviewCommentEvent: require('./PullRequestReviewCommentEvent'),
-  AnyEvent: require('./Default')
+  AnyEvent: require('./AnyEvent')
 };

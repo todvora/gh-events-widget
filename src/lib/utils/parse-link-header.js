@@ -13,8 +13,8 @@ const getUrlParams = (url) => {
   });
 };
 
-const fromHeader = (header) => {
-  if(!header) {
+export const fromHeader = (header) => {
+  if (!header) {
     return {};
   }
   const links = header.split(',');
@@ -23,7 +23,7 @@ const fromHeader = (header) => {
       const items = link.split(';').map(i => i.trim());
       const result = {};
 
-      result.url = items[0].slice(1,-1);
+      result.url = items[0].slice(1, -1);
 
       getUrlParams(result.url).forEach(item => {
         result[item.key] = item.value;
@@ -31,7 +31,7 @@ const fromHeader = (header) => {
 
       items.slice(1)
         .map(keyValue => keyValue.split('='))
-        .map(pair => {return {key:pair[0], value:pair[1].slice(1,-1)};})
+        .map(pair => { return {key: pair[0], value: pair[1].slice(1, -1)}; })
         .forEach(pair => {
           result[pair.key] = pair.value;
         });
@@ -43,8 +43,8 @@ const fromHeader = (header) => {
     }, {});
 };
 
-const fromMeta = (meta) => {
-  if(!meta) {
+export const fromMeta = (meta) => {
+  if (!meta) {
     return {};
   }
   return meta
@@ -52,7 +52,7 @@ const fromMeta = (meta) => {
       const result = {};
       result.url = row[0];
       const args = row[1];
-      Object.keys(args).forEach(key => {result[key] = args[key];});
+      Object.keys(args).forEach(key => { result[key] = args[key]; });
 
       getUrlParams(result.url).forEach(item => {
         result[item.key] = item.value;
@@ -64,9 +64,4 @@ const fromMeta = (meta) => {
       acc[curr.rel] = curr;
       return acc;
     }, {});
-};
-
-module.exports = {
-  fromHeader: fromHeader,
-  fromMeta: fromMeta
 };

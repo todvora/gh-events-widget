@@ -23,9 +23,7 @@ const makeDocument = (frame, data, styles) => {
 
 const create = (htmlContent, stylesheet) => {
   var iframe = document.createElement('iframe');
-  iframe.onload = function() {
-    makeDocument(iframe, htmlContent, stylesheet);
-  };
+  iframe.onload = () => makeDocument(iframe, htmlContent, stylesheet);
   iframe.setAttribute('width', '100%');
   iframe.setAttribute('src', 'about:blank');
   iframe.setAttribute('scrolling', 'no');
@@ -33,5 +31,5 @@ const create = (htmlContent, stylesheet) => {
 };
 
 module.exports = {
-  create:create
+  create: create
 };
