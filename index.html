@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Github Events Widget</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Cache-control" content="public">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Embed Github Events Widget «alpha version»</h1>
+        <div id="configuration">
+          <h2>Configuration:</h2>
+          <form id="builder">
+          <table>
+            <tr><td class="label">Github username:</td><td><input type="text" name="data-user" required="true"/></td><td class="help">without @, user or organisation</td></tr>
+            <tr><td class="label">Events count:</td><td><input type="number" value="5"  min="1" max="30" step="1" name="data-count"/></td><td class="help">1-30, default=5</td></tr>
+            <tr><td class="label">Skin:</td><td>
+              <select id="skin" name="data-skin">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+              </select>
+            </td><td class="help">matching your website</td></tr>
+            <tr><td class="label">Display authors:</td><td>
+              <select id="skin" name="data-display-authors">
+                <option value="true">Always</option>
+                <option value="false">Never</option>
+              </select>
+            </td><td class="help">Should be autors of events displayed? default=always</td></tr>
+            <tr><td class="label">Allowed event types:</td><td><input type="text" id="user" name="data-events"/></td><td class="help">comma separated list of <a href="https://developer.github.com/v3/activity/events/types/" target="_blank">GH event types</a></td></tr>
+            <tr><td class="label">Custom CSS style:</td><td><textarea type="submit" value="Preview" rows="5" cols="20" name="data-style"></textarea></td><td class="help">add your own CSS rules, use dev-tools to discover structure. For example: <br><pre class="customcss">.event{background-color:orange}</pre></td></tr>
+            <tr><td></td><td><input type="submit" value="Generate code" id="submit" /></td></tr>
+          </table>
+        </form>
+          <div id="code">
+            <h2>Use this code:</h2>
+            <textarea type="submit" value="Preview" rows="5" cols="20" id="embed-code" readonly="true"></textarea>
+            <p class="help">Do you want to host your scripts by yourself? Download <a href="lib/gh-events-widget.js" download>the library</a>,
+              place it somewhere in your webserver and adapt src value of the script above.</p>
+          </div>
+
+        </div>
+        <div id="preview">
+          <h2>Preview:</h2>
+            <div id="preview-content">
+            </div>
+            <script type="text/javascript" src="lib/gh-events-widget.js"></script>
+        </div>
+        <div id="footer">
+          Created by <a href="http://www.tomas-dvorak.cz">Tomas Dvorak</a>. Hosted and versioned on <a href="https://github.com/todvora/gh-events-widget">Github</a>. Let me know on <a href="https://twitter.com/tdvorak">twitter</a> or Github, what do you think. Pull requests welcomed!
+        </div>
+    </div>
+</body>
+</html>
