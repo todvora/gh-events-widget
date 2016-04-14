@@ -52,6 +52,7 @@ const consumeAll = (acc, pageNr, config) => {
         .filter(filterEvents(config))
         .map(mapEvent);
       const all = acc.concat(newData);
+
       if (all.length < getLimitCount(config) && response.navigation.next && config.paginate) {
         return consumeAll(all, response.navigation.next.page, config);
       } else {

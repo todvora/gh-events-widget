@@ -1,4 +1,3 @@
-// require('babel-polyfill');
 require('es6-promise').polyfill();
 
 const template = require('./template');
@@ -15,7 +14,7 @@ const render = (err, config, data, element) => {
 
 const readConfig = (element) => {
   const eventsText = element.getAttribute('data-events') || '';
-  const events = eventsText.split(',').map(event => event.trim());
+  const events = eventsText.split(',').map(event => event.trim()).filter(event => event.length > 0);
 
   return {
     user: element.getAttribute('data-user'),
