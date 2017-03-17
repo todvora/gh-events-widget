@@ -7,7 +7,7 @@ Embed your Github timeline into your website / blog and show everyone, what are 
 On [todvora.github.io/gh-events-widget](https://todvora.github.io/gh-events-widget/)
 
 ## How is it working?
-Github provides [Events API](https://developer.github.com/v3/activity/events/). This API is called by main script using [JSOP](https://en.wikipedia.org/wiki/JSONP).
+Github provides [Events API](https://developer.github.com/v3/activity/events/). This API is called by main script using [JSONP](https://en.wikipedia.org/wiki/JSONP).
 
 ## Development
 For local development call
